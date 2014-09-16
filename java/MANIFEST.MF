@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: Ilona Karpova
+Main-Class: sikher.Main
+Class-Path: lib/saxon8.jar lib/saxon8-xpath.jar lib/itext-1.3.4.jar
+
+
+
+
+

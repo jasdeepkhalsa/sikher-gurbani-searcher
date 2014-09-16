@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMLGURBANI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bani.xsd" version="1.0.0.0" revision="1" status="complete" book="shri guru granth sahib ji" type="translation" language="english">
+  <INFORMATION>
+    <author>Professor Sahib Singh</author>
+    <date>2005-08-16</date>
+    <description> This is the latest and most complete translation available of the Shri Guru Granth Sahib Ji to date. </description>
+    <language>English</language>
+    <type>Translation</type>
+  </INFORMATION>
+  <BOOK bnumber="1">
+    <PAGE pnumber="1">
+      <HYMN hnumber="1" author="1" melody="1">
+        <LINE lnumber="1">One Universal Creator God. The Name Is Truth. Creative Being Personified. No Fear. No Hatred. Image Of The Undying, Beyond Birth, Self-Existent. By Guru's Grace ~</LINE>
+        <LINE lnumber="2">Chant And Meditate:</LINE>
+        <LINE lnumber="3">True In The Primal Beginning. True Throughout The Ages.</LINE>
+        <LINE lnumber="4">True Here And Now. O Nanak, Forever And Ever True. ||1||</LINE>
+      </HYMN>
+    </PAGE>
+    <PAGE pnumber="2">
+      <HYMN hnumber="2" author="1" melody="1">
+        <LINE lnumber="1">Some sing that He watches over us, face to face, ever-present.</LINE>
+        <LINE lnumber="2">There is no shortage of those who preach and teach.</LINE>
+        <LINE lnumber="3">Millions upon millions offer millions of sermons and stories.</LINE>
+        <LINE lnumber="4">The Great Giver keeps on giving, while those who receive grow weary of receiving.</LINE>
+      </HYMN>
+    </PAGE>
+  </BOOK>
+</XMLGURBANI>

@@ -1,0 +1,2564 @@
+ObjectDomain_Model 15
+{-hkq0ym_-ehx_ecgdqzd5_-p7m 0
+}[objectdomain.uml.core.TypeExpression $20
+objectdomain.uml.mechanisms.UmlPackage-owns $7
+objectdomain.uml.core.Generalization-owns $13
+objectdomain.uml.core.Projection $19
+objectdomain.uml.core.UmlAttribute-features $12
+objectdomain.uml.core.UmlAssociationEnd-connections $15
+objectdomain.uml.view.ClassView-owns $4
+objectdomain.uml.core.UmlTaggedValue-taggedValues $11
+objectdomain.uml.core.UmlParameter-parameters $10
+objectdomain.uml.core.UmlAssociation-owns $14
+objectdomain.uml.view.Diagram-owns $3
+objectdomain.uml.core.UmlOperation-features $9
+objectdomain.domain.ModelEnvironment-owns $2
+objectdomain.uml.mechanisms.StylePackage-owns $18
+objectdomain.uml.mechanisms.StereotypePackage-owns $16
+objectdomain.uml.view.GeneralizationView-owns $5
+objectdomain.uml.core.UmlMultiplicity $21
+objectdomain.uml.core.UmlClass-owns $8
+objectdomain.domain.DomainLockObject $22
+objectdomain.uml.view.AssociationView-owns $6
+objectdomain.uml.mechanisms.UmlModel-models $1
+objectdomain.uml.core.Stereotype-owns $17
+]
+($1 1 > -hkq0ym_-ehx_ecgdqzd5_-p7m 0
+(name "Model"
+)
+(namespaceRoot true)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p7m"))
+($2 2 < -hkq0ym_-ehx_ecgdqzd5_-p7l "ModelEnvironment" 1
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p7l"))
+($7 58 < -hkq0ym_-ehx_ecgdqzd5_-p98 "Logical" 1
+(name "Logical"
+)
+(namespaceRoot true)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p98"))
+($3 3 < -hkq0ym_-ehx_ecgdqzd5_-p87 "utils" 58
+(name "utils"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p87")
+(diagramType "class"))
+($4 4 < -hkq0ym_-ehx_ecgdqzd5_-p7k "ExceptionHandler" 3
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p7k")
+(bbx 30 50 110 100))
+($4 5 < -hkq0ym_-ehx_ecgdqzd5_-p7j "Progress" 3
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p7j")
+(bbx 150 50 100 130))
+($7 250 < -hkq0ym_-ehx_ecgdqzd5_-p84 "GUI" 58
+(name "GUI"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p84"))
+($3 6 < -hkq0ym_-ehx_ecgdqzd5_-p8s "wxClasses" 250
+(name "wxClasses"
+)
+(width 9740)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p8s")
+(height 9740)
+(diagramType "class"))
+($4 7 < -hkq0ym_-ehx_ecgdqzd5_-p7i "wxPanel" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p7i")
+(bbx 580 130 100 60))
+($4 8 < -hkq0ym_-ehx_ecgdqzd5_-p7h "CSikherDevelPanel" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p7h")
+(bbx 60 10 160 200))
+($5 9 < -hkq0ym_-ehx_ecgdqzd5_-p7g "" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p7g")
+(points 220 118 580 155)
+(lineStyle "oblique"))
+($4 10 < -hkq0ym_-ehx_ecgdqzd5_-p7f "CSikherAkandPanel" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p7f")
+(bbx 50 450 300 100))
+($5 11 < -hkq0ym_-ehx_ecgdqzd5_-p7e "" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p7e")
+(points 263 450 592 190)
+(lineStyle "oblique"))
+($4 12 < -hkq0ym_-ehx_ecgdqzd5_-p7d "CSikherProjectPanel" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p7d")
+(bbx 70 240 130 60))
+($5 13 < -hkq0ym_-ehx_ecgdqzd5_-p7c "" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p7c")
+(points 200 256 580 171)
+(lineStyle "oblique"))
+($4 14 < -hkq0ym_-ehx_ecgdqzd5_-p7b "wxHtmlWindow" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p7b")
+(bbx 40 680 100 60))
+($4 15 < -hkq0ym_-ehx_ecgdqzd5_-p7a "kbHtmlWindow" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p7a")
+(bbx 20 840 150 60))
+($5 16 < -hkq0ym_-ehx_ecgdqzd5_-p79 "" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p79")
+(points 94 840 91 740)
+(lineStyle "oblique"))
+($4 17 < -hkq0ym_-ehx_ecgdqzd5_-p78 "CSikherResultPanel" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p78")
+(bbx 60 320 130 100))
+($5 18 < -hkq0ym_-ehx_ecgdqzd5_-p77 "" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p77")
+(points 190 343 580 181)
+(lineStyle "oblique"))
+($4 19 < -hkq0ym_-ehx_ecgdqzd5_-p76 "CSikherSlideshowPanel" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p76")
+(bbx 320 580 150 80))
+($5 20 < -hkq0ym_-ehx_ecgdqzd5_-p75 "" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p75")
+(points 415 580 615 190)
+(lineStyle "oblique"))
+($4 21 < -hkq0ym_-ehx_ecgdqzd5_-p74 "CSikherViewPanel" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p74")
+(bbx 520 490 130 110))
+($5 22 < -hkq0ym_-ehx_ecgdqzd5_-p73 "" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p73")
+(points 591 490 626 190)
+(lineStyle "oblique"))
+($4 23 < -hkq0ym_-ehx_ecgdqzd5_-p72 "wxFrame" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p72")
+(bbx 990 10 100 60))
+($4 24 < -hkq0ym_-ehx_ecgdqzd5_-p71 "wxApp" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p71")
+(bbx 200 680 100 60))
+($4 25 < -hkq0ym_-ehx_ecgdqzd5_-p70 "kbFrame" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p70")
+(bbx 940 170 210 810))
+($5 26 < -hkq0ym_-ehx_ecgdqzd5_-p6z "" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6z")
+(points 1041 170 1040 70)
+(lineStyle "oblique"))
+($4 27 < -hkq0ym_-ehx_ecgdqzd5_-p6y "kbApp" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6y")
+(bbx 200 840 100 60))
+($5 28 < -hkq0ym_-ehx_ecgdqzd5_-p6x "" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6x")
+(points 250 840 250 740)
+(lineStyle "oblique"))
+($4 29 < -hkq0ym_-ehx_ecgdqzd5_-p6w "SikherAboutBox" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6w")
+(bbx 40 580 200 80))
+($4 30 < -hkq0ym_-ehx_ecgdqzd5_-p6v "CFPSearch1" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6v")
+(bbx 740 120 130 100))
+($5 31 < -hkq0ym_-ehx_ecgdqzd5_-p6u "" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6u")
+(points 740 166 680 163)
+(lineStyle "oblique"))
+($4 32 < -hkq0ym_-ehx_ecgdqzd5_-p6t "CFPSearchOptions" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6t")
+(bbx 290 10 130 60))
+($5 33 < -hkq0ym_-ehx_ecgdqzd5_-p6s "" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6s")
+(points 420 68 580 138)
+(lineStyle "oblique"))
+($4 34 < -hkq0ym_-ehx_ecgdqzd5_-p6r "CFPPostSearch" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6r")
+(bbx 510 10 130 60))
+($5 35 < -hkq0ym_-ehx_ecgdqzd5_-p6q "" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6q")
+(points 589 70 616 130)
+(lineStyle "oblique"))
+($4 36 < -hkq0ym_-ehx_ecgdqzd5_-p6p "CFPCommonTasks" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6p")
+(bbx 700 10 130 60))
+($5 37 < -hkq0ym_-ehx_ecgdqzd5_-p6o "" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6o")
+(points 731 70 664 130)
+(lineStyle "oblique"))
+($4 38 < -hkq0ym_-ehx_ecgdqzd5_-p6n "kbHtmlPanel" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6n")
+(bbx 690 420 210 250))
+($5 39 < -hkq0ym_-ehx_ecgdqzd5_-p6m "" 6
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6m")
+(points 741 420 643 190)
+(lineStyle "oblique"))
+($7 81 < -hkq0ym_-ehx_ecgdqzd5_-p85 "search engine" 58
+(name "search engine"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p85"))
+($3 40 < -hkq0ym_-ehx_ecgdqzd5_-p86 "search engine" 81
+(name "search engine"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p86")
+(diagramType "class"))
+($4 41 < -hkq0ym_-ehx_ecgdqzd5_-p6l "shabadSearchEngine" 40
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6l")
+(bbx 20 30 180 130))
+($3 42 < -hkq0ym_-ehx_ecgdqzd5_-p8m "IndexItem" 81
+(name "IndexItem"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p8m")
+(diagramType "class"))
+($5 43 < -hkq0ym_-ehx_ecgdqzd5_-p6k "" 42
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6k")
+(points 258 230 299 170)
+(lineStyle "oblique"))
+($4 44 < -hkq0ym_-ehx_ecgdqzd5_-p6j "BaseIndexItems" 42
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6j")
+(bbx 260 20 180 150))
+($4 45 < -hkq0ym_-ehx_ecgdqzd5_-p6i "IndexItems" 42
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6i")
+(bbx 400 270 230 150))
+($4 46 < -hkq0ym_-ehx_ecgdqzd5_-p6h "IndexItem" 42
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6h")
+(bbx 60 230 240 230))
+($5 47 < -hkq0ym_-ehx_ecgdqzd5_-p6g "" 42
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6g")
+(points 466 270 400 170)
+(lineStyle "oblique"))
+($4 48 < -hkq0ym_-ehx_ecgdqzd5_-p6f "Content" 42
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6f")
+(bbx 480 20 220 170))
+($4 49 < -hkq0ym_-ehx_ecgdqzd5_-p6e "Indexer" 42
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6e")
+(bbx 670 240 230 220))
+($4 50 < -hkq0ym_-ehx_ecgdqzd5_-p6d "WordLocation" 42
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6d")
+(bbx 360 510 230 170))
+($4 51 < -hkq0ym_-ehx_ecgdqzd5_-p6c "WordPositions" 42
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6c")
+(bbx 680 540 130 100))
+($4 52 < -hkq0ym_-ehx_ecgdqzd5_-p6b "WordVoc" 42
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6b")
+(bbx 60 480 210 170))
+($6 53 < -hkq0ym_-ehx_ecgdqzd5_-oun "" 42
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oun")
+(points 590 593 680 591)
+(fromMultiplicityPosition 605 565)
+(lineStyle "oblique"))
+($7 468 < -hkq0ym_-ehx_ecgdqzd5_-p83 "unittest" 58
+(name "unittest"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p83"))
+($3 54 < -hkq0ym_-ehx_ecgdqzd5_-p8g "Unittest" 468
+(name "Unittest"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p8g")
+(diagramType "class"))
+($4 55 < -hkq0ym_-ehx_ecgdqzd5_-p6a "TestUtils" 54
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p6a")
+(bbx 30 90 100 60))
+($4 56 < -hkq0ym_-ehx_ecgdqzd5_-p69 "TestOptions" 54
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p69")
+(bbx 30 20 100 60))
+($4 57 < -hkq0ym_-ehx_ecgdqzd5_-p8a "TestIndexItems" 54
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p8a")
+(bbx 30 170 160 130))
+($8 59 < -hkq0ym_-ehx_ecgdqzd5_-p8k "ExceptionHandler" 58
+(name "ExceptionHandler"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p8k"))
+($9 60 < -hkq0ym_-ehx_ecgdqzd5_-p68 "__init__" 59
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p68"))
+($10 61 < -hkq0ym_-ehx_ecgdqzd5_-p67 "self" 60
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p67"))
+($11 62 < -hkq0ym_-ehx_ecgdqzd5_-p66 "documentation" 60
+(name "documentation"
+)
+(value " Standard constructor."
+"        "
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p66"))
+($12 63 < -hkq0ym_-ehx_ecgdqzd5_-p65 "_buff" 59
+(name "_buff"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p65"))
+($9 64 < -hkq0ym_-ehx_ecgdqzd5_-p64 "write" 59
+(name "write"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p64"))
+($10 65 < -hkq0ym_-ehx_ecgdqzd5_-p63 "self" 64
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p63"))
+($10 66 < -hkq0ym_-ehx_ecgdqzd5_-p62 "s" 64
+(name "s"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p62"))
+($11 67 < -hkq0ym_-ehx_ecgdqzd5_-p61 "documentation" 64
+(name "documentation"
+)
+(value " Write the given error message to a text file."
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p61"))
+($11 68 < -hkq0ym_-ehx_ecgdqzd5_-p60 "documentation" 59
+(name "documentation"
+)
+(value " A simple error-handling class to write exceptions to a text file."
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p60"))
+($8 69 < -hkq0ym_-ehx_ecgdqzd5_-p88 "Progress" 58
+(name "Progress"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p88"))
+($9 70 < -hkq0ym_-ehx_ecgdqzd5_-p5z "__init__" 69
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5z"))
+($10 71 < -hkq0ym_-ehx_ecgdqzd5_-p5y "self" 70
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5y"))
+($12 72 < -hkq0ym_-ehx_ecgdqzd5_-p5x "__ctr" 69
+(name "__ctr"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5x"))
+($9 73 < -hkq0ym_-ehx_ecgdqzd5_-p5w "Next" 69
+(name "Next"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5w"))
+($10 74 < -hkq0ym_-ehx_ecgdqzd5_-p5v "self" 73
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5v"))
+($10 75 < -hkq0ym_-ehx_ecgdqzd5_-p5u "sym" 73
+(name "sym"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5u"))
+($9 76 < -hkq0ym_-ehx_ecgdqzd5_-p5t "Reset" 69
+(name "Reset"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5t"))
+($10 77 < -hkq0ym_-ehx_ecgdqzd5_-p5s "self" 76
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5s"))
+($9 78 < -hkq0ym_-ehx_ecgdqzd5_-p5r "Info" 69
+(name "Info"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5r"))
+($10 79 < -hkq0ym_-ehx_ecgdqzd5_-p5q "self" 78
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5q"))
+($10 80 < -hkq0ym_-ehx_ecgdqzd5_-p5p "data" 78
+(name "data"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5p"))
+($8 82 < -hkq0ym_-ehx_ecgdqzd5_-p82 "Content" 81
+(name "Content"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p82"))
+($9 83 < -hkq0ym_-ehx_ecgdqzd5_-p5o "__init__" 82
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5o"))
+($10 84 < -hkq0ym_-ehx_ecgdqzd5_-p5n "self" 83
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5n"))
+($10 85 < -hkq0ym_-ehx_ecgdqzd5_-p5m "loc" 83
+(name "loc"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5m"))
+($10 86 < -hkq0ym_-ehx_ecgdqzd5_-p5l "fname" 83
+(name "fname"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5l"))
+($10 87 < -hkq0ym_-ehx_ecgdqzd5_-p5k "translation" 83
+(name "translation"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5k"))
+($12 88 < -hkq0ym_-ehx_ecgdqzd5_-p5j "__loc" 82
+(name "__loc"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5j"))
+($12 89 < -hkq0ym_-ehx_ecgdqzd5_-p5i "__fname" 82
+(name "__fname"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5i"))
+($12 90 < -hkq0ym_-ehx_ecgdqzd5_-p5h "__translation" 82
+(name "__translation"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5h"))
+($9 91 < -hkq0ym_-ehx_ecgdqzd5_-p5g "GetLocation" 82
+(name "GetLocation"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5g"))
+($10 92 < -hkq0ym_-ehx_ecgdqzd5_-p5f "self" 91
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5f"))
+($9 93 < -hkq0ym_-ehx_ecgdqzd5_-p5e "GetFileName" 82
+(name "GetFileName"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5e"))
+($10 94 < -hkq0ym_-ehx_ecgdqzd5_-p5d "self" 93
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5d"))
+($9 95 < -hkq0ym_-ehx_ecgdqzd5_-p5c "GetTranslation" 82
+(name "GetTranslation"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5c"))
+($10 96 < -hkq0ym_-ehx_ecgdqzd5_-p5b "self" 95
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5b"))
+($11 97 < -hkq0ym_-ehx_ecgdqzd5_-p5a "documentation" 82
+(name "documentation"
+)
+(value "  content information. Usualy:"
+"    locale, filename, translation (also Content)"
+"  "
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p5a"))
+($8 98 < -hkq0ym_-ehx_ecgdqzd5_-p7v "shabadSearchEngine" 81
+(name "shabadSearchEngine"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p7v"))
+($9 99 < -hkq0ym_-ehx_ecgdqzd5_-p59 "__init__" 98
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p59"))
+($10 100 < -hkq0ym_-ehx_ecgdqzd5_-p58 "self" 99
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p58"))
+($10 101 < -hkq0ym_-ehx_ecgdqzd5_-p57 "database" 99
+(name "database"
+)
+(defaultValue "../DATABASE "
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p57"))
+($12 102 < -hkq0ym_-ehx_ecgdqzd5_-p56 "database" 98
+(name "database"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p56"))
+($9 103 < -hkq0ym_-ehx_ecgdqzd5_-p55 "searchTransliteration" 98
+(name "searchTransliteration"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p55"))
+($10 104 < -hkq0ym_-ehx_ecgdqzd5_-p54 "self" 103
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p54"))
+($10 105 < -hkq0ym_-ehx_ecgdqzd5_-p53 "s" 103
+(name "s"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p53"))
+($9 106 < -hkq0ym_-ehx_ecgdqzd5_-p52 "searchGurmukhi" 98
+(name "searchGurmukhi"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p52"))
+($10 107 < -hkq0ym_-ehx_ecgdqzd5_-p51 "self" 106
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p51"))
+($10 108 < -hkq0ym_-ehx_ecgdqzd5_-p50 "s" 106
+(name "s"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p50"))
+($9 109 < -hkq0ym_-ehx_ecgdqzd5_-p4z "runTests" 98
+(name "runTests"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4z"))
+($10 110 < -hkq0ym_-ehx_ecgdqzd5_-p4y "self" 109
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4y"))
+($8 111 < -hkq0ym_-ehx_ecgdqzd5_-p96 "Indexer" 81
+(name "Indexer"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p96"))
+($9 112 < -hkq0ym_-ehx_ecgdqzd5_-p4x "__init__" 111
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4x"))
+($10 113 < -hkq0ym_-ehx_ecgdqzd5_-p4w "self" 112
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4w"))
+($10 114 < -hkq0ym_-ehx_ecgdqzd5_-p4v "levelLimit" 112
+(name "levelLimit"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4v"))
+($11 115 < -hkq0ym_-ehx_ecgdqzd5_-p4u "documentation" 112
+(name "documentation"
+)
+(value "       Vocs - map of the location:IndexItems"
+"       Files - files database"
+"      "
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4u"))
+($12 116 < -hkq0ym_-ehx_ecgdqzd5_-p4t "__vocs" 111
+(name "__vocs"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4t"))
+($12 117 < -hkq0ym_-ehx_ecgdqzd5_-p4s "__files" 111
+(name "__files"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4s"))
+($12 118 < -hkq0ym_-ehx_ecgdqzd5_-p4r "__levelLimit" 111
+(name "__levelLimit"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4r"))
+($9 119 < -hkq0ym_-ehx_ecgdqzd5_-p4q "TestFile" 111
+(name "TestFile"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4q"))
+($10 120 < -hkq0ym_-ehx_ecgdqzd5_-p4p "self" 119
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4p"))
+($10 121 < -hkq0ym_-ehx_ecgdqzd5_-p4o "file" 119
+(name "file"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4o"))
+($9 122 < -hkq0ym_-ehx_ecgdqzd5_-p4n "AddFile" 111
+(name "AddFile"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4n"))
+($10 123 < -hkq0ym_-ehx_ecgdqzd5_-p4m "self" 122
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4m"))
+($10 124 < -hkq0ym_-ehx_ecgdqzd5_-p4l "file" 122
+(name "file"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4l"))
+($9 125 < -hkq0ym_-ehx_ecgdqzd5_-p4k "IndexFile" 111
+(name "IndexFile"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4k"))
+($10 126 < -hkq0ym_-ehx_ecgdqzd5_-p4j "self" 125
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4j"))
+($10 127 < -hkq0ym_-ehx_ecgdqzd5_-p4i "voc" 125
+(name "voc"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4i"))
+($10 128 < -hkq0ym_-ehx_ecgdqzd5_-p4h "loc" 125
+(name "loc"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4h"))
+($10 129 < -hkq0ym_-ehx_ecgdqzd5_-p4g "baseFile" 125
+(name "baseFile"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4g"))
+($10 130 < -hkq0ym_-ehx_ecgdqzd5_-p4f "fileID" 125
+(name "fileID"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4f"))
+($9 131 < -hkq0ym_-ehx_ecgdqzd5_-p4e "SelectVocAndIndex" 111
+(name "SelectVocAndIndex"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4e"))
+($10 132 < -hkq0ym_-ehx_ecgdqzd5_-p4d "self" 131
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4d"))
+($10 133 < -hkq0ym_-ehx_ecgdqzd5_-p4c "loc" 131
+(name "loc"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4c"))
+($10 134 < -hkq0ym_-ehx_ecgdqzd5_-p4b "file" 131
+(name "file"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4b"))
+($9 135 < -hkq0ym_-ehx_ecgdqzd5_-p4a "Index" 111
+(name "Index"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p4a"))
+($10 136 < -hkq0ym_-ehx_ecgdqzd5_-p49 "self" 135
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p49"))
+($10 137 < -hkq0ym_-ehx_ecgdqzd5_-p48 "content" 135
+(name "content"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p48"))
+($9 138 < -hkq0ym_-ehx_ecgdqzd5_-p47 "Search" 111
+(name "Search"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p47"))
+($10 139 < -hkq0ym_-ehx_ecgdqzd5_-p46 "self" 138
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p46"))
+($10 140 < -hkq0ym_-ehx_ecgdqzd5_-p45 "location" 138
+(name "location"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p45"))
+($10 141 < -hkq0ym_-ehx_ecgdqzd5_-p44 "word" 138
+(name "word"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p44"))
+($8 142 < -hkq0ym_-ehx_ecgdqzd5_-p95 "BaseIndexItems" 81
+(name "BaseIndexItems"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p95"))
+($9 143 < -hkq0ym_-ehx_ecgdqzd5_-p43 "__init__" 142
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p43"))
+($10 144 < -hkq0ym_-ehx_ecgdqzd5_-p42 "self" 143
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p42"))
+($10 145 < -hkq0ym_-ehx_ecgdqzd5_-p41 "levelLimit" 143
+(name "levelLimit"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p41"))
+($10 146 < -hkq0ym_-ehx_ecgdqzd5_-p40 "level" 143
+(name "level"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p40"))
+($12 147 < -hkq0ym_-ehx_ecgdqzd5_-p3z "__level" 142
+(name "__level"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3z"))
+($12 148 < -hkq0ym_-ehx_ecgdqzd5_-p3y "__levelLimit" 142
+(name "__levelLimit"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3y"))
+($9 149 < -hkq0ym_-ehx_ecgdqzd5_-p7q "getLevelLimit" 142
+(name "getLevelLimit"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p7q"))
+($10 150 < -hkq0ym_-ehx_ecgdqzd5_-p3x "self" 149
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3x"))
+($9 151 < -hkq0ym_-ehx_ecgdqzd5_-p7p "getLevel" 142
+(name "getLevel"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p7p"))
+($10 152 < -hkq0ym_-ehx_ecgdqzd5_-p3w "self" 151
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3w"))
+($9 153 < -hkq0ym_-ehx_ecgdqzd5_-p7o "SplitWord" 142
+(name "SplitWord"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p7o"))
+($10 154 < -hkq0ym_-ehx_ecgdqzd5_-p3v "self" 153
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3v"))
+($10 155 < -hkq0ym_-ehx_ecgdqzd5_-p3u "loc" 153
+(name "loc"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3u"))
+($10 156 < -hkq0ym_-ehx_ecgdqzd5_-p3t "word" 153
+(name "word"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3t"))
+($8 157 < -hkq0ym_-ehx_ecgdqzd5_-p8q "IndexItem" 81
+(name "IndexItem"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p8q"))
+($9 158 < -hkq0ym_-ehx_ecgdqzd5_-p3s "__init__" 157
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3s"))
+($10 159 < -hkq0ym_-ehx_ecgdqzd5_-p3r "self" 158
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3r"))
+($10 160 < -hkq0ym_-ehx_ecgdqzd5_-p3q "parent" 158
+(name "parent"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3q"))
+($10 161 < -hkq0ym_-ehx_ecgdqzd5_-p3p "levelLimit" 158
+(name "levelLimit"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3p"))
+($10 162 < -hkq0ym_-ehx_ecgdqzd5_-p3o "level" 158
+(name "level"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3o"))
+($12 163 < -hkq0ym_-ehx_ecgdqzd5_-p3n "__parent" 157
+(name "__parent"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3n"))
+($12 164 < -hkq0ym_-ehx_ecgdqzd5_-p3m "__key" 157
+(name "__key"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3m"))
+($12 165 < -hkq0ym_-ehx_ecgdqzd5_-p3l "__positions" 157
+(name "__positions"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3l"))
+($12 166 < -hkq0ym_-ehx_ecgdqzd5_-p3k "__items" 157
+(name "__items"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3k"))
+($9 167 < -hkq0ym_-ehx_ecgdqzd5_-p3j "getKey" 157
+(name "getKey"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3j"))
+($10 168 < -hkq0ym_-ehx_ecgdqzd5_-p3i "self" 167
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3i"))
+($9 169 < -hkq0ym_-ehx_ecgdqzd5_-p3h "getPositions" 157
+(name "getPositions"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3h"))
+($10 170 < -hkq0ym_-ehx_ecgdqzd5_-p3g "self" 169
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3g"))
+($9 171 < -hkq0ym_-ehx_ecgdqzd5_-p3f "getItems" 157
+(name "getItems"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3f"))
+($10 172 < -hkq0ym_-ehx_ecgdqzd5_-p3e "self" 171
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3e"))
+($9 173 < -hkq0ym_-ehx_ecgdqzd5_-p3d "getWord" 157
+(name "getWord"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3d"))
+($10 174 < -hkq0ym_-ehx_ecgdqzd5_-p3c "self" 173
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3c"))
+($9 175 < -hkq0ym_-ehx_ecgdqzd5_-p3b "AddWord" 157
+(name "AddWord"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3b"))
+($10 176 < -hkq0ym_-ehx_ecgdqzd5_-p3a "self" 175
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p3a"))
+($10 177 < -hkq0ym_-ehx_ecgdqzd5_-p39 "key" 175
+(name "key"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p39"))
+($10 178 < -hkq0ym_-ehx_ecgdqzd5_-p38 "chunk" 175
+(name "chunk"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p38"))
+($10 179 < -hkq0ym_-ehx_ecgdqzd5_-p37 "wordLocation" 175
+(name "wordLocation"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p37"))
+($9 180 < -hkq0ym_-ehx_ecgdqzd5_-p36 "Locate" 157
+(name "Locate"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p36"))
+($10 181 < -hkq0ym_-ehx_ecgdqzd5_-p35 "self" 180
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p35"))
+($10 182 < -hkq0ym_-ehx_ecgdqzd5_-p34 "loc" 180
+(name "loc"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p34"))
+($10 183 < -hkq0ym_-ehx_ecgdqzd5_-p33 "word" 180
+(name "word"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p33"))
+($13 184 < -hkq0ym_-ehx_ecgdqzd5_-p8p "#<anon> (IndexItem, BaseIndexItems)" 157
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p8p"))
+($11 185 < -hkq0ym_-ehx_ecgdqzd5_-p32 "documentation" 157
+(name "documentation"
+)
+(value "  Item of the binary tree. Used by index engine"
+"  property:"
+"    parent - ParentIndexItem"
+"    chunk - part of the word"
+"    level - item level"
+"    levelLimit"
+"    position: map[fileid] = map[lineNum] = [wordNum] "
+"    parentItem"
+"    Items - child items (map[char] = [IndexItem])"
+"  "
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p32"))
+($8 186 < -hkq0ym_-ehx_ecgdqzd5_-p8o "IndexItems" 81
+(name "IndexItems"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p8o"))
+($9 187 < -hkq0ym_-ehx_ecgdqzd5_-p31 "__init__" 186
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p31"))
+($10 188 < -hkq0ym_-ehx_ecgdqzd5_-p30 "self" 187
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p30"))
+($10 189 < -hkq0ym_-ehx_ecgdqzd5_-p2z "suffix" 187
+(name "suffix"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2z"))
+($10 190 < -hkq0ym_-ehx_ecgdqzd5_-p2y "levelLimit" 187
+(name "levelLimit"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2y"))
+($12 191 < -hkq0ym_-ehx_ecgdqzd5_-p2x "__items" 186
+(name "__items"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2x"))
+($12 192 < -hkq0ym_-ehx_ecgdqzd5_-p2w "__locvoc" 186
+(name "__locvoc"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2w"))
+($9 193 < -hkq0ym_-ehx_ecgdqzd5_-p2v "__del__" 186
+(name "__del__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2v"))
+($10 194 < -hkq0ym_-ehx_ecgdqzd5_-p2u "self" 193
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2u"))
+($9 195 < -hkq0ym_-ehx_ecgdqzd5_-p2t "AddWord" 186
+(name "AddWord"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2t"))
+($10 196 < -hkq0ym_-ehx_ecgdqzd5_-p2s "self" 195
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2s"))
+($10 197 < -hkq0ym_-ehx_ecgdqzd5_-p2r "loc" 195
+(name "loc"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2r"))
+($10 198 < -hkq0ym_-ehx_ecgdqzd5_-p2q "word" 195
+(name "word"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2q"))
+($10 199 < -hkq0ym_-ehx_ecgdqzd5_-p2p "wordLocation" 195
+(name "wordLocation"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2p"))
+($9 200 < -hkq0ym_-ehx_ecgdqzd5_-p2o "Locate" 186
+(name "Locate"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2o"))
+($10 201 < -hkq0ym_-ehx_ecgdqzd5_-p2n "self" 200
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2n"))
+($10 202 < -hkq0ym_-ehx_ecgdqzd5_-p2m "loc" 200
+(name "loc"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2m"))
+($10 203 < -hkq0ym_-ehx_ecgdqzd5_-p2l "word" 200
+(name "word"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2l"))
+($13 204 < -hkq0ym_-ehx_ecgdqzd5_-p8n "#<anon> (IndexItems, BaseIndexItems)" 186
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p8n"))
+($11 205 < -hkq0ym_-ehx_ecgdqzd5_-p2k "documentation" 186
+(name "documentation"
+)
+(value "  Index Items manager"
+"  "
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2k"))
+($8 206 < -hkq0ym_-ehx_ecgdqzd5_-p7u "WordLocation" 81
+(name "WordLocation"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p7u"))
+($9 207 < -hkq0ym_-ehx_ecgdqzd5_-p2j "__init__" 206
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2j"))
+($10 208 < -hkq0ym_-ehx_ecgdqzd5_-p2i "self" 207
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2i"))
+($10 209 < -hkq0ym_-ehx_ecgdqzd5_-p2h "fileid" 207
+(name "fileid"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2h"))
+($10 210 < -hkq0ym_-ehx_ecgdqzd5_-p2g "linenum" 207
+(name "linenum"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2g"))
+($10 211 < -hkq0ym_-ehx_ecgdqzd5_-p2f "wordnum" 207
+(name "wordnum"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2f"))
+($12 212 < -hkq0ym_-ehx_ecgdqzd5_-p2e "__fileid" 206
+(name "__fileid"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2e"))
+($12 213 < -hkq0ym_-ehx_ecgdqzd5_-p2d "__linenum" 206
+(name "__linenum"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2d"))
+($12 214 < -hkq0ym_-ehx_ecgdqzd5_-p2c "__wordnum" 206
+(name "__wordnum"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2c"))
+($9 215 < -hkq0ym_-ehx_ecgdqzd5_-p2b "getFileid" 206
+(name "getFileid"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2b"))
+($10 216 < -hkq0ym_-ehx_ecgdqzd5_-p2a "self" 215
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p2a"))
+($9 217 < -hkq0ym_-ehx_ecgdqzd5_-p29 "getLinenum" 206
+(name "getLinenum"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p29"))
+($10 218 < -hkq0ym_-ehx_ecgdqzd5_-p28 "self" 217
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p28"))
+($9 219 < -hkq0ym_-ehx_ecgdqzd5_-p27 "getWordnum" 206
+(name "getWordnum"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p27"))
+($10 220 < -hkq0ym_-ehx_ecgdqzd5_-p26 "self" 219
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p26"))
+($14 221 < -hkq0ym_-ehx_ecgdqzd5_-ouo "#<anon> (WordLocation, WordPositions)" 206
+(name "")
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ouo"))
+($15 222 < -hkq0ym_-ehx_ecgdqzd5_-oum "#0" 221
+(aggregation "aggregate")
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oum")
+(multiplicity "*"))
+($15 223 < -hkq0ym_-ehx_ecgdqzd5_-oul "#1" 221
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oul"))
+($11 224 < -hkq0ym_-ehx_ecgdqzd5_-p25 "documentation" 206
+(name "documentation"
+)
+(value "  Primitive location structure"
+"  "
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p25"))
+($8 225 < -hkq0ym_-ehx_ecgdqzd5_-p7t "WordPositions" 81
+(name "WordPositions"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p7t"))
+($9 226 < -hkq0ym_-ehx_ecgdqzd5_-p24 "__init__" 225
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p24"))
+($10 227 < -hkq0ym_-ehx_ecgdqzd5_-p23 "self" 226
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p23"))
+($10 228 < -hkq0ym_-ehx_ecgdqzd5_-p22 "wl" 226
+(name "wl"
+)
+(defaultValue "None"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p22"))
+($12 229 < -hkq0ym_-ehx_ecgdqzd5_-p21 "__positions" 225
+(name "__positions"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p21"))
+($9 230 < -hkq0ym_-ehx_ecgdqzd5_-p20 "AddLocation" 225
+(name "AddLocation"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p20"))
+($10 231 < -hkq0ym_-ehx_ecgdqzd5_-p1z "self" 230
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1z"))
+($10 232 < -hkq0ym_-ehx_ecgdqzd5_-p1y "wl" 230
+(name "wl"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1y"))
+($11 233 < -hkq0ym_-ehx_ecgdqzd5_-p1x "documentation" 225
+(name "documentation"
+)
+(value "  Locations map"
+"  "
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1x"))
+($8 234 < -hkq0ym_-ehx_ecgdqzd5_-p7s "WordVoc" 81
+(name "WordVoc"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p7s"))
+($9 235 < -hkq0ym_-ehx_ecgdqzd5_-p1w "__init__" 234
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1w"))
+($10 236 < -hkq0ym_-ehx_ecgdqzd5_-p1v "self" 235
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1v"))
+($10 237 < -hkq0ym_-ehx_ecgdqzd5_-p1u "loc" 235
+(name "loc"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1u"))
+($12 238 < -hkq0ym_-ehx_ecgdqzd5_-p1t "__loc" 234
+(name "__loc"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1t"))
+($12 239 < -hkq0ym_-ehx_ecgdqzd5_-p1s "__file" 234
+(name "__file"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1s"))
+($12 240 < -hkq0ym_-ehx_ecgdqzd5_-p1r "__voc" 234
+(name "__voc"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1r"))
+($9 241 < -hkq0ym_-ehx_ecgdqzd5_-p1q "__del__" 234
+(name "__del__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1q"))
+($10 242 < -hkq0ym_-ehx_ecgdqzd5_-p1p "self" 241
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1p"))
+($9 243 < -hkq0ym_-ehx_ecgdqzd5_-p1o "getFileName" 234
+(name "getFileName"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1o"))
+($10 244 < -hkq0ym_-ehx_ecgdqzd5_-p1n "self" 243
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1n"))
+($9 245 < -hkq0ym_-ehx_ecgdqzd5_-p1m "AddWord" 234
+(name "AddWord"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1m"))
+($10 246 < -hkq0ym_-ehx_ecgdqzd5_-p1l "self" 245
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1l"))
+($10 247 < -hkq0ym_-ehx_ecgdqzd5_-p1k "word" 245
+(name "word"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1k"))
+($10 248 < -hkq0ym_-ehx_ecgdqzd5_-p1j "wordLocation" 245
+(name "wordLocation"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1j"))
+($11 249 < -hkq0ym_-ehx_ecgdqzd5_-p1i "documentation" 234
+(name "documentation"
+)
+(value "  Primary word indexer"
+"  "
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1i"))
+($8 251 < -hkq0ym_-ehx_ecgdqzd5_-p93 "CSikherDevelPanel" 250
+(name "CSikherDevelPanel"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p93"))
+($9 252 < -hkq0ym_-ehx_ecgdqzd5_-p1h "__init__" 251
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1h"))
+($10 253 < -hkq0ym_-ehx_ecgdqzd5_-p1g "self" 252
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1g"))
+($10 254 < -hkq0ym_-ehx_ecgdqzd5_-p1f "parent" 252
+(name "parent"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1f"))
+($12 255 < -hkq0ym_-ehx_ecgdqzd5_-p1e "edtContent" 251
+(name "edtContent"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1e"))
+($12 256 < -hkq0ym_-ehx_ecgdqzd5_-p1d "edtSearch" 251
+(name "edtSearch"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1d"))
+($12 257 < -hkq0ym_-ehx_ecgdqzd5_-p1c "edtLog" 251
+(name "edtLog"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1c"))
+($9 258 < -hkq0ym_-ehx_ecgdqzd5_-p1b "Load" 251
+(name "Load"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1b"))
+($10 259 < -hkq0ym_-ehx_ecgdqzd5_-p1a "self" 258
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p1a"))
+($9 260 < -hkq0ym_-ehx_ecgdqzd5_-p19 "Save" 251
+(name "Save"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p19"))
+($10 261 < -hkq0ym_-ehx_ecgdqzd5_-p18 "self" 260
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p18"))
+($9 262 < -hkq0ym_-ehx_ecgdqzd5_-p17 "OnClose" 251
+(name "OnClose"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p17"))
+($10 263 < -hkq0ym_-ehx_ecgdqzd5_-p16 "self" 262
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p16"))
+($10 264 < -hkq0ym_-ehx_ecgdqzd5_-p15 "event" 262
+(name "event"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p15"))
+($9 265 < -hkq0ym_-ehx_ecgdqzd5_-p14 "OnIndexClick" 251
+(name "OnIndexClick"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p14"))
+($10 266 < -hkq0ym_-ehx_ecgdqzd5_-p13 "self" 265
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p13"))
+($10 267 < -hkq0ym_-ehx_ecgdqzd5_-p12 "event" 265
+(name "event"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p12"))
+($9 268 < -hkq0ym_-ehx_ecgdqzd5_-p11 "OnSearchClick" 251
+(name "OnSearchClick"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p11"))
+($10 269 < -hkq0ym_-ehx_ecgdqzd5_-p10 "self" 268
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p10"))
+($10 270 < -hkq0ym_-ehx_ecgdqzd5_-p0z "event" 268
+(name "event"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0z"))
+($13 271 < -hkq0ym_-ehx_ecgdqzd5_-p0y "#<anon> (CSikherDevelPanel, wxPanel)" 251
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0y"))
+($8 272 < -hkq0ym_-ehx_ecgdqzd5_-p8x "CFPCommonTasks" 250
+(name "CFPCommonTasks"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p8x"))
+($9 273 < -hkq0ym_-ehx_ecgdqzd5_-p0x "__init__" 272
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0x"))
+($10 274 < -hkq0ym_-ehx_ecgdqzd5_-p0w "self" 273
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0w"))
+($10 275 < -hkq0ym_-ehx_ecgdqzd5_-p0v "parent" 273
+(name "parent"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0v"))
+($13 276 < -hkq0ym_-ehx_ecgdqzd5_-p0u "#<anon> (CFPCommonTasks, wxPanel)" 272
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0u"))
+($8 277 < -hkq0ym_-ehx_ecgdqzd5_-p8w "CFPPostSearch" 250
+(name "CFPPostSearch"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p8w"))
+($9 278 < -hkq0ym_-ehx_ecgdqzd5_-p0t "__init__" 277
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0t"))
+($10 279 < -hkq0ym_-ehx_ecgdqzd5_-p0s "self" 278
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0s"))
+($10 280 < -hkq0ym_-ehx_ecgdqzd5_-p0r "parent" 278
+(name "parent"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0r"))
+($13 281 < -hkq0ym_-ehx_ecgdqzd5_-p0q "#<anon> (CFPPostSearch, wxPanel)" 277
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0q"))
+($8 282 < -hkq0ym_-ehx_ecgdqzd5_-p8v "CFPSearchOptions" 250
+(name "CFPSearchOptions"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p8v"))
+($9 283 < -hkq0ym_-ehx_ecgdqzd5_-p0p "__init__" 282
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0p"))
+($10 284 < -hkq0ym_-ehx_ecgdqzd5_-p0o "self" 283
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0o"))
+($10 285 < -hkq0ym_-ehx_ecgdqzd5_-p0n "parent" 283
+(name "parent"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0n"))
+($13 286 < -hkq0ym_-ehx_ecgdqzd5_-p0m "#<anon> (CFPSearchOptions, wxPanel)" 282
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0m"))
+($8 287 < -hkq0ym_-ehx_ecgdqzd5_-p91 "CSikherProjectPanel" 250
+(name "CSikherProjectPanel"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p91"))
+($9 288 < -hkq0ym_-ehx_ecgdqzd5_-p0l "__init__" 287
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0l"))
+($10 289 < -hkq0ym_-ehx_ecgdqzd5_-p0k "self" 288
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0k"))
+($10 290 < -hkq0ym_-ehx_ecgdqzd5_-p0j "parent" 288
+(name "parent"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0j"))
+($13 291 < -hkq0ym_-ehx_ecgdqzd5_-p0i "#<anon> (CSikherProjectPanel, wxPanel)" 287
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0i"))
+($8 292 < -hkq0ym_-ehx_ecgdqzd5_-p90 "CSikherResultPanel" 250
+(name "CSikherResultPanel"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p90"))
+($9 293 < -hkq0ym_-ehx_ecgdqzd5_-p0h "__init__" 292
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0h"))
+($10 294 < -hkq0ym_-ehx_ecgdqzd5_-p0g "self" 293
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0g"))
+($10 295 < -hkq0ym_-ehx_ecgdqzd5_-p0f "parent" 293
+(name "parent"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0f"))
+($12 296 < -hkq0ym_-ehx_ecgdqzd5_-p0e "html" 292
+(name "html"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0e"))
+($9 297 < -hkq0ym_-ehx_ecgdqzd5_-p0d "LoadPage" 292
+(name "LoadPage"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0d"))
+($10 298 < -hkq0ym_-ehx_ecgdqzd5_-p0c "self" 297
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0c"))
+($10 299 < -hkq0ym_-ehx_ecgdqzd5_-p0b "path" 297
+(name "path"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0b"))
+($13 300 < -hkq0ym_-ehx_ecgdqzd5_-p0a "#<anon> (CSikherResultPanel, wxPanel)" 292
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p0a"))
+($8 301 < -hkq0ym_-ehx_ecgdqzd5_-p8u "CFPSearch1" 250
+(name "CFPSearch1"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p8u"))
+($9 302 < -hkq0ym_-ehx_ecgdqzd5_-p81 "__init__" 301
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p81"))
+($10 303 < -hkq0ym_-ehx_ecgdqzd5_-p7z "self" 302
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p7z"))
+($10 304 < -hkq0ym_-ehx_ecgdqzd5_-p09 "parent" 302
+(name "parent"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p09"))
+($12 305 < -hkq0ym_-ehx_ecgdqzd5_-p80 "st" 301
+(name "st"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p80"))
+($12 306 < -hkq0ym_-ehx_ecgdqzd5_-p08 "edt" 301
+(name "edt"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p08"))
+($13 307 < -hkq0ym_-ehx_ecgdqzd5_-p07 "#<anon> (CFPSearch1, wxPanel)" 301
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p07"))
+($8 308 < -hkq0ym_-ehx_ecgdqzd5_-p8z "CSikherSlideshowPanel" 250
+(name "CSikherSlideshowPanel"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p8z"))
+($9 309 < -hkq0ym_-ehx_ecgdqzd5_-p06 "__init__" 308
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p06"))
+($10 310 < -hkq0ym_-ehx_ecgdqzd5_-p05 "self" 309
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p05"))
+($10 311 < -hkq0ym_-ehx_ecgdqzd5_-p04 "parent" 309
+(name "parent"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p04"))
+($12 312 < -hkq0ym_-ehx_ecgdqzd5_-p03 "html" 308
+(name "html"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p03"))
+($13 313 < -hkq0ym_-ehx_ecgdqzd5_-p7n "#<anon> (CSikherSlideshowPanel, wxPanel)" 308
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p7n"))
+($8 314 < -hkq0ym_-ehx_ecgdqzd5_-p94 "CSikherViewPanel" 250
+(name "CSikherViewPanel"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p94"))
+($9 315 < -hkq0ym_-ehx_ecgdqzd5_-p02 "__init__" 314
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p02"))
+($10 316 < -hkq0ym_-ehx_ecgdqzd5_-p01 "self" 315
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p01"))
+($10 317 < -hkq0ym_-ehx_ecgdqzd5_-p00 "parent" 315
+(name "parent"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p00"))
+($12 318 < -hkq0ym_-ehx_ecgdqzd5_-ozz "html" 314
+(name "html"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ozz"))
+($12 319 < -hkq0ym_-ehx_ecgdqzd5_-ozy "box" 314
+(name "box"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ozy"))
+($9 320 < -hkq0ym_-ehx_ecgdqzd5_-ozx "LoadPage" 314
+(name "LoadPage"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ozx"))
+($10 321 < -hkq0ym_-ehx_ecgdqzd5_-ozw "self" 320
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ozw"))
+($10 322 < -hkq0ym_-ehx_ecgdqzd5_-ozv "path" 320
+(name "path"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ozv"))
+($13 323 < -hkq0ym_-ehx_ecgdqzd5_-ozu "#<anon> (CSikherViewPanel, wxPanel)" 314
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ozu"))
+($8 324 < -hkq0ym_-ehx_ecgdqzd5_-p7y "kbApp" 250
+(name "kbApp"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p7y"))
+($9 325 < -hkq0ym_-ehx_ecgdqzd5_-ozt "OnInit" 324
+(name "OnInit"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ozt"))
+($10 326 < -hkq0ym_-ehx_ecgdqzd5_-ozs "self" 325
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ozs"))
+($13 327 < -hkq0ym_-ehx_ecgdqzd5_-ozr "#<anon> (kbApp, wxApp)" 324
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ozr"))
+($8 328 < -hkq0ym_-ehx_ecgdqzd5_-p7x "kbFrame" 250
+(name "kbFrame"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p7x"))
+($9 329 < -hkq0ym_-ehx_ecgdqzd5_-ozq "__init__" 328
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ozq"))
+($10 330 < -hkq0ym_-ehx_ecgdqzd5_-ozp "self" 329
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ozp"))
+($10 331 < -hkq0ym_-ehx_ecgdqzd5_-ozo "parent" 329
+(name "parent"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ozo"))
+($10 332 < -hkq0ym_-ehx_ecgdqzd5_-ozn "ID" 329
+(name "ID"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ozn"))
+($10 333 < -hkq0ym_-ehx_ecgdqzd5_-ozm "title" 329
+(name "title"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ozm"))
+($10 334 < -hkq0ym_-ehx_ecgdqzd5_-ozl "file" 329
+(name "file"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ozl"))
+($12 335 < -hkq0ym_-ehx_ecgdqzd5_-ozk "panel" 328
+(name "panel"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ozk"))
+($12 336 < -hkq0ym_-ehx_ecgdqzd5_-ozj "timer" 328
+(name "timer"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ozj"))
+($12 337 < -hkq0ym_-ehx_ecgdqzd5_-ozi "_leftWindow1" 328
+(name "_leftWindow1"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ozi"))
+($12 338 < -hkq0ym_-ehx_ecgdqzd5_-ozh "remainingSpace" 328
+(name "remainingSpace"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ozh"))
+($12 339 < -hkq0ym_-ehx_ecgdqzd5_-ozg "ID_WINDOW_TOP" 328
+(name "ID_WINDOW_TOP"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ozg"))
+($12 340 < -hkq0ym_-ehx_ecgdqzd5_-ozf "ID_WINDOW_LEFT1" 328
+(name "ID_WINDOW_LEFT1"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ozf"))
+($12 341 < -hkq0ym_-ehx_ecgdqzd5_-oze "ID_WINDOW_RIGHT1" 328
+(name "ID_WINDOW_RIGHT1"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oze"))
+($12 342 < -hkq0ym_-ehx_ecgdqzd5_-ozd "ID_WINDOW_BOTTOM" 328
+(name "ID_WINDOW_BOTTOM"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ozd"))
+($9 343 < -hkq0ym_-ehx_ecgdqzd5_-ozc "OnClose" 328
+(name "OnClose"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ozc"))
+($10 344 < -hkq0ym_-ehx_ecgdqzd5_-ozb "self" 343
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ozb"))
+($10 345 < -hkq0ym_-ehx_ecgdqzd5_-oza "event" 343
+(name "event"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oza"))
+($9 346 < -hkq0ym_-ehx_ecgdqzd5_-oz9 "__CreateMenu" 328
+(name "__CreateMenu"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oz9"))
+($10 347 < -hkq0ym_-ehx_ecgdqzd5_-oz8 "self" 346
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oz8"))
+($9 348 < -hkq0ym_-ehx_ecgdqzd5_-oz7 "__CreateStatusBar" 328
+(name "__CreateStatusBar"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oz7"))
+($10 349 < -hkq0ym_-ehx_ecgdqzd5_-oz6 "self" 348
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oz6"))
+($12 350 < -hkq0ym_-ehx_ecgdqzd5_-oz5 "sb" 328
+(name "sb"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oz5"))
+($12 351 < -hkq0ym_-ehx_ecgdqzd5_-oz4 "gauge" 328
+(name "gauge"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oz4"))
+($12 352 < -hkq0ym_-ehx_ecgdqzd5_-oz3 "infoBtn" 328
+(name "infoBtn"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oz3"))
+($9 353 < -hkq0ym_-ehx_ecgdqzd5_-oz2 "__CreateToolBar" 328
+(name "__CreateToolBar"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oz2"))
+($10 354 < -hkq0ym_-ehx_ecgdqzd5_-oz1 "self" 353
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oz1"))
+($12 355 < -hkq0ym_-ehx_ecgdqzd5_-oz0 "toolbar" 328
+(name "toolbar"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oz0"))
+($9 356 < -hkq0ym_-ehx_ecgdqzd5_-oyz "Reposition" 328
+(name "Reposition"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oyz"))
+($10 357 < -hkq0ym_-ehx_ecgdqzd5_-oyy "self" 356
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oyy"))
+($9 358 < -hkq0ym_-ehx_ecgdqzd5_-oyx "OnSize" 328
+(name "OnSize"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oyx"))
+($10 359 < -hkq0ym_-ehx_ecgdqzd5_-oyw "self" 358
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oyw"))
+($10 360 < -hkq0ym_-ehx_ecgdqzd5_-oyv "event" 358
+(name "event"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oyv"))
+($9 361 < -hkq0ym_-ehx_ecgdqzd5_-oyu "doNew" 328
+(name "doNew"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oyu"))
+($10 362 < -hkq0ym_-ehx_ecgdqzd5_-oyt "self" 361
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oyt"))
+($10 363 < -hkq0ym_-ehx_ecgdqzd5_-oys "event" 361
+(name "event"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oys"))
+($9 364 < -hkq0ym_-ehx_ecgdqzd5_-oyr "Exit" 328
+(name "Exit"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oyr"))
+($10 365 < -hkq0ym_-ehx_ecgdqzd5_-oyq "self" 364
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oyq"))
+($10 366 < -hkq0ym_-ehx_ecgdqzd5_-oyp "event" 364
+(name "event"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oyp"))
+($9 367 < -hkq0ym_-ehx_ecgdqzd5_-oyo "FullScreenMode" 328
+(name "FullScreenMode"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oyo"))
+($10 368 < -hkq0ym_-ehx_ecgdqzd5_-oyn "self" 367
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oyn"))
+($10 369 < -hkq0ym_-ehx_ecgdqzd5_-oym "event" 367
+(name "event"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oym"))
+($9 370 < -hkq0ym_-ehx_ecgdqzd5_-oyl "Options" 328
+(name "Options"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oyl"))
+($10 371 < -hkq0ym_-ehx_ecgdqzd5_-oyk "self" 370
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oyk"))
+($10 372 < -hkq0ym_-ehx_ecgdqzd5_-oyj "event" 370
+(name "event"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oyj"))
+($9 373 < -hkq0ym_-ehx_ecgdqzd5_-oyi "SetLanguage" 328
+(name "SetLanguage"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oyi"))
+($10 374 < -hkq0ym_-ehx_ecgdqzd5_-oyh "self" 373
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oyh"))
+($10 375 < -hkq0ym_-ehx_ecgdqzd5_-oyg "event" 373
+(name "event"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oyg"))
+($9 376 < -hkq0ym_-ehx_ecgdqzd5_-oyf "About" 328
+(name "About"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oyf"))
+($10 377 < -hkq0ym_-ehx_ecgdqzd5_-oye "self" 376
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oye"))
+($10 378 < -hkq0ym_-ehx_ecgdqzd5_-oyd "event" 376
+(name "event"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oyd"))
+($9 379 < -hkq0ym_-ehx_ecgdqzd5_-oyc "CheckForUpdates" 328
+(name "CheckForUpdates"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oyc"))
+($10 380 < -hkq0ym_-ehx_ecgdqzd5_-oyb "self" 379
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oyb"))
+($10 381 < -hkq0ym_-ehx_ecgdqzd5_-oya "event" 379
+(name "event"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oya"))
+($9 382 < -hkq0ym_-ehx_ecgdqzd5_-oy9 "Help" 328
+(name "Help"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oy9"))
+($10 383 < -hkq0ym_-ehx_ecgdqzd5_-oy8 "self" 382
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oy8"))
+($10 384 < -hkq0ym_-ehx_ecgdqzd5_-oy7 "event" 382
+(name "event"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oy7"))
+($9 385 < -hkq0ym_-ehx_ecgdqzd5_-oy6 "Notify" 328
+(name "Notify"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oy6"))
+($10 386 < -hkq0ym_-ehx_ecgdqzd5_-oy5 "self" 385
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oy5"))
+($9 387 < -hkq0ym_-ehx_ecgdqzd5_-oy4 "OnToggleWindow" 328
+(name "OnToggleWindow"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oy4"))
+($10 388 < -hkq0ym_-ehx_ecgdqzd5_-oy3 "self" 387
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oy3"))
+($10 389 < -hkq0ym_-ehx_ecgdqzd5_-oy2 "event" 387
+(name "event"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oy2"))
+($9 390 < -hkq0ym_-ehx_ecgdqzd5_-oy1 "OnFoldPanelBarDrag" 328
+(name "OnFoldPanelBarDrag"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oy1"))
+($10 391 < -hkq0ym_-ehx_ecgdqzd5_-oy0 "self" 390
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oy0"))
+($10 392 < -hkq0ym_-ehx_ecgdqzd5_-oxz "event" 390
+(name "event"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxz"))
+($9 393 < -hkq0ym_-ehx_ecgdqzd5_-oxy "ReCreateFoldPanel" 328
+(name "ReCreateFoldPanel"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxy"))
+($10 394 < -hkq0ym_-ehx_ecgdqzd5_-oxx "self" 393
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxx"))
+($10 395 < -hkq0ym_-ehx_ecgdqzd5_-oxw "fpb_flags" 393
+(name "fpb_flags"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxw"))
+($12 396 < -hkq0ym_-ehx_ecgdqzd5_-oxv "_pnl" 328
+(name "_pnl"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxv"))
+($9 397 < -hkq0ym_-ehx_ecgdqzd5_-oxu "OnCreateBottomStyle" 328
+(name "OnCreateBottomStyle"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxu"))
+($10 398 < -hkq0ym_-ehx_ecgdqzd5_-oxt "self" 397
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxt"))
+($10 399 < -hkq0ym_-ehx_ecgdqzd5_-oxs "event" 397
+(name "event"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxs"))
+($12 400 < -hkq0ym_-ehx_ecgdqzd5_-oxr "_flags" 328
+(name "_flags"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxr"))
+($9 401 < -hkq0ym_-ehx_ecgdqzd5_-oxq "OnCreateNormalStyle" 328
+(name "OnCreateNormalStyle"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxq"))
+($10 402 < -hkq0ym_-ehx_ecgdqzd5_-oxp "self" 401
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxp"))
+($10 403 < -hkq0ym_-ehx_ecgdqzd5_-oxo "event" 401
+(name "event"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxo"))
+($9 404 < -hkq0ym_-ehx_ecgdqzd5_-oxn "OnCollapseMe" 328
+(name "OnCollapseMe"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxn"))
+($10 405 < -hkq0ym_-ehx_ecgdqzd5_-oxm "self" 404
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxm"))
+($10 406 < -hkq0ym_-ehx_ecgdqzd5_-oxl "event" 404
+(name "event"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxl"))
+($9 407 < -hkq0ym_-ehx_ecgdqzd5_-oxk "OnExpandMe" 328
+(name "OnExpandMe"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxk"))
+($10 408 < -hkq0ym_-ehx_ecgdqzd5_-oxj "self" 407
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxj"))
+($10 409 < -hkq0ym_-ehx_ecgdqzd5_-oxi "event" 407
+(name "event"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxi"))
+($12 410 < -hkq0ym_-ehx_ecgdqzd5_-oxh "radiocontrols" 328
+(name "radiocontrols"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxh"))
+($9 411 < -hkq0ym_-ehx_ecgdqzd5_-oxg "OnSlideColour" 328
+(name "OnSlideColour"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxg"))
+($10 412 < -hkq0ym_-ehx_ecgdqzd5_-oxf "self" 411
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxf"))
+($10 413 < -hkq0ym_-ehx_ecgdqzd5_-oxe "event" 411
+(name "event"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxe"))
+($9 414 < -hkq0ym_-ehx_ecgdqzd5_-oxd "OnStyleChange" 328
+(name "OnStyleChange"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxd"))
+($10 415 < -hkq0ym_-ehx_ecgdqzd5_-oxc "self" 414
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxc"))
+($10 416 < -hkq0ym_-ehx_ecgdqzd5_-oxb "event" 414
+(name "event"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxb"))
+($12 417 < -hkq0ym_-ehx_ecgdqzd5_-oxa "ID_USE_HGRADIENT" 328
+(name "ID_USE_HGRADIENT"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oxa"))
+($12 418 < -hkq0ym_-ehx_ecgdqzd5_-ox9 "ID_USE_VGRADIENT" 328
+(name "ID_USE_VGRADIENT"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ox9"))
+($12 419 < -hkq0ym_-ehx_ecgdqzd5_-ox8 "ID_USE_SINGLE" 328
+(name "ID_USE_SINGLE"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ox8"))
+($12 420 < -hkq0ym_-ehx_ecgdqzd5_-ox7 "ID_USE_RECTANGLE" 328
+(name "ID_USE_RECTANGLE"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ox7"))
+($12 421 < -hkq0ym_-ehx_ecgdqzd5_-ox6 "ID_USE_FILLED_RECTANGLE" 328
+(name "ID_USE_FILLED_RECTANGLE"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ox6"))
+($13 422 < -hkq0ym_-ehx_ecgdqzd5_-ox5 "#<anon> (kbFrame, wxFrame)" 328
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ox5"))
+($8 423 < -hkq0ym_-ehx_ecgdqzd5_-p8y "kbHtmlPanel" 250
+(name "kbHtmlPanel"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p8y"))
+($9 424 < -hkq0ym_-ehx_ecgdqzd5_-ox4 "__init__" 423
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ox4"))
+($10 425 < -hkq0ym_-ehx_ecgdqzd5_-ox3 "self" 424
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ox3"))
+($10 426 < -hkq0ym_-ehx_ecgdqzd5_-ox2 "parent" 424
+(name "parent"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ox2"))
+($10 427 < -hkq0ym_-ehx_ecgdqzd5_-ox1 "id" 424
+(name "id"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ox1"))
+($10 428 < -hkq0ym_-ehx_ecgdqzd5_-ox0 "frame" 424
+(name "frame"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ox0"))
+($10 429 < -hkq0ym_-ehx_ecgdqzd5_-owz "file" 424
+(name "file"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-owz"))
+($12 430 < -hkq0ym_-ehx_ecgdqzd5_-owy "nb1" 423
+(name "nb1"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-owy"))
+($12 431 < -hkq0ym_-ehx_ecgdqzd5_-owx "resultPage" 423
+(name "resultPage"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-owx"))
+($12 432 < -hkq0ym_-ehx_ecgdqzd5_-oww "viewPage" 423
+(name "viewPage"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oww"))
+($12 433 < -hkq0ym_-ehx_ecgdqzd5_-owv "projectPage" 423
+(name "projectPage"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-owv"))
+($12 434 < -hkq0ym_-ehx_ecgdqzd5_-owu "slideshowPage" 423
+(name "slideshowPage"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-owu"))
+($12 435 < -hkq0ym_-ehx_ecgdqzd5_-owt "akandPage" 423
+(name "akandPage"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-owt"))
+($12 436 < -hkq0ym_-ehx_ecgdqzd5_-ows "develPage" 423
+(name "develPage"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ows"))
+($12 437 < -hkq0ym_-ehx_ecgdqzd5_-owr "box" 423
+(name "box"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-owr"))
+($9 438 < -hkq0ym_-ehx_ecgdqzd5_-owq "OnClose" 423
+(name "OnClose"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-owq"))
+($10 439 < -hkq0ym_-ehx_ecgdqzd5_-owp "self" 438
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-owp"))
+($10 440 < -hkq0ym_-ehx_ecgdqzd5_-owo "event" 438
+(name "event"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-owo"))
+($9 441 < -hkq0ym_-ehx_ecgdqzd5_-own "OnLoadFile" 423
+(name "OnLoadFile"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-own"))
+($10 442 < -hkq0ym_-ehx_ecgdqzd5_-owm "self" 441
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-owm"))
+($10 443 < -hkq0ym_-ehx_ecgdqzd5_-owl "event" 441
+(name "event"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-owl"))
+($9 444 < -hkq0ym_-ehx_ecgdqzd5_-owk "OnTranslate" 423
+(name "OnTranslate"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-owk"))
+($10 445 < -hkq0ym_-ehx_ecgdqzd5_-owj "self" 444
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-owj"))
+($10 446 < -hkq0ym_-ehx_ecgdqzd5_-owi "event" 444
+(name "event"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-owi"))
+($13 447 < -hkq0ym_-ehx_ecgdqzd5_-p8t "#<anon> (kbHtmlPanel, wxPanel)" 423
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p8t"))
+($8 448 < -hkq0ym_-ehx_ecgdqzd5_-p7w "kbHtmlWindow" 250
+(name "kbHtmlWindow"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p7w"))
+($9 449 < -hkq0ym_-ehx_ecgdqzd5_-owh "__init__" 448
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-owh"))
+($10 450 < -hkq0ym_-ehx_ecgdqzd5_-owg "self" 449
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-owg"))
+($10 451 < -hkq0ym_-ehx_ecgdqzd5_-owf "parent" 449
+(name "parent"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-owf"))
+($10 452 < -hkq0ym_-ehx_ecgdqzd5_-owe "id" 449
+(name "id"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-owe"))
+($13 453 < -hkq0ym_-ehx_ecgdqzd5_-owd "#<anon> (kbHtmlWindow, wxHtmlWindow)" 448
+(uid "-hkq0ym_-ehx_ecgdqzd5_-owd"))
+($8 454 < -hkq0ym_-ehx_ecgdqzd5_-p8i "SikherAboutBox" 250
+(name "SikherAboutBox"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p8i"))
+($12 455 < -hkq0ym_-ehx_ecgdqzd5_-owc "text" 454
+(name "text"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-owc")
+(ownerScope "type"))
+($9 456 < -hkq0ym_-ehx_ecgdqzd5_-owb "__init__" 454
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-owb"))
+($10 457 < -hkq0ym_-ehx_ecgdqzd5_-owa "self" 456
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-owa"))
+($10 458 < -hkq0ym_-ehx_ecgdqzd5_-ow9 "parent" 456
+(name "parent"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ow9"))
+($8 459 < -hkq0ym_-ehx_ecgdqzd5_-p92 "CSikherAkandPanel" 250
+(name "CSikherAkandPanel"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-p92"))
+($9 460 < -hkq0ym_-ehx_ecgdqzd5_-ow8 "__init__" 459
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ow8"))
+($10 461 < -hkq0ym_-ehx_ecgdqzd5_-ow7 "self" 460
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ow7"))
+($10 462 < -hkq0ym_-ehx_ecgdqzd5_-ow6 "parent" 460
+(name "parent"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ow6"))
+($12 463 < -hkq0ym_-ehx_ecgdqzd5_-ow5 "html" 459
+(name "html"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ow5"))
+($9 464 < -hkq0ym_-ehx_ecgdqzd5_-ow4 "LoadPage" 459
+(name "LoadPage"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ow4"))
+($10 465 < -hkq0ym_-ehx_ecgdqzd5_-ow3 "self" 464
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ow3"))
+($10 466 < -hkq0ym_-ehx_ecgdqzd5_-ow2 "path" 464
+(name "path"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ow2"))
+($13 467 < -hkq0ym_-ehx_ecgdqzd5_-ow1 "#<anon> (CSikherAkandPanel, wxPanel)" 459
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ow1"))
+($16 469 < -hkq0ym_-ehx_ecgdqzd5_-ow0 "stereotypes" 1
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ow0"))
+($17 470 < -hkq0ym_-ehx_ecgdqzd5_-ovz "_odPackage" 469
+(name "_odPackage"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ovz")
+(baseClass "Package"))
+($17 471 < -hkq0ym_-ehx_ecgdqzd5_-ovy "odStub" 469
+(name "odStub"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ovy"))
+($17 472 < -hkq0ym_-ehx_ecgdqzd5_-ovx "access" 469
+(name "access"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ovx")
+(baseClass "Dependency"))
+($17 473 < -hkq0ym_-ehx_ecgdqzd5_-ovw "association" 469
+(name "association"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ovw")
+(baseClass "AssociationEnd"))
+($17 474 < -hkq0ym_-ehx_ecgdqzd5_-ovv "create" 469
+(name "create"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ovv")
+(baseClass "BehavioralFeature"))
+($17 475 < -hkq0ym_-ehx_ecgdqzd5_-ovu "destroy" 469
+(name "destroy"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ovu")
+(baseClass "BehavioralFeature"))
+($17 476 < -hkq0ym_-ehx_ecgdqzd5_-ovt "document" 469
+(name "document"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ovt")
+(baseClass "Component"))
+($17 477 < -hkq0ym_-ehx_ecgdqzd5_-ovs "executable" 469
+(name "executable"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ovs")
+(baseClass "Component"))
+($17 478 < -hkq0ym_-ehx_ecgdqzd5_-ovr "extend" 469
+(name "extend"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ovr")
+(baseClass "Dependency"))
+($17 479 < -hkq0ym_-ehx_ecgdqzd5_-ovq "facade" 469
+(name "facade"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ovq")
+(baseClass "Package"))
+($17 480 < -hkq0ym_-ehx_ecgdqzd5_-ovp "file" 469
+(name "file"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ovp")
+(baseClass "Component"))
+($17 481 < -hkq0ym_-ehx_ecgdqzd5_-ovo "framework" 469
+(name "framework"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ovo")
+(baseClass "Package"))
+($17 482 < -hkq0ym_-ehx_ecgdqzd5_-ovn "friend" 469
+(name "friend"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ovn")
+(baseClass "Dependency"))
+($17 483 < -hkq0ym_-ehx_ecgdqzd5_-ovm "global" 469
+(name "global"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ovm")
+(baseClass "AssociationEnd"))
+($17 484 < -hkq0ym_-ehx_ecgdqzd5_-ovl "implementation" 469
+(name "implementation"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ovl")
+(baseClass "Generalization"))
+($17 485 < -hkq0ym_-ehx_ecgdqzd5_-ovk "implementationClass" 469
+(name "implementationClass"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ovk")
+(baseClass "Class"))
+($17 486 < -hkq0ym_-ehx_ecgdqzd5_-ovj "import" 469
+(name "import"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ovj")
+(baseClass "Dependency"))
+($17 487 < -hkq0ym_-ehx_ecgdqzd5_-ovi "include" 469
+(name "include"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ovi")
+(baseClass "Dependency"))
+($17 488 < -hkq0ym_-ehx_ecgdqzd5_-ovh "invariant" 469
+(name "invariant"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ovh")
+(baseClass "Constraint"))
+($17 489 < -hkq0ym_-ehx_ecgdqzd5_-ovg "library" 469
+(name "library"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ovg")
+(baseClass "Component"))
+($17 490 < -hkq0ym_-ehx_ecgdqzd5_-ovf "local" 469
+(name "local"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ovf")
+(baseClass "AssociationEnd"))
+($17 491 < -hkq0ym_-ehx_ecgdqzd5_-ove "metaclass" 469
+(name "metaclass"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ove")
+(baseClass "Classifier"))
+($17 492 < -hkq0ym_-ehx_ecgdqzd5_-ovd "metamodel" 469
+(name "metamodel"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ovd")
+(baseClass "Package"))
+($17 493 < -hkq0ym_-ehx_ecgdqzd5_-ovc "parameter" 469
+(name "parameter"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ovc")
+(baseClass "AssociationEnd"))
+($17 494 < -hkq0ym_-ehx_ecgdqzd5_-ovb "postcondition" 469
+(name "postcondition"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ovb")
+(baseClass "Constraint"))
+($17 495 < -hkq0ym_-ehx_ecgdqzd5_-ova "powertype" 469
+(name "powertype"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ova")
+(baseClass "Classifier"))
+($17 496 < -hkq0ym_-ehx_ecgdqzd5_-ov9 "precondition" 469
+(name "precondition"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ov9")
+(baseClass "Constraint"))
+($17 497 < -hkq0ym_-ehx_ecgdqzd5_-ov8 "process" 469
+(name "process"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ov8")
+(baseClass "Classifier"))
+($17 498 < -hkq0ym_-ehx_ecgdqzd5_-ov7 "requirement" 469
+(name "requirement"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ov7")
+(baseClass "Comment"))
+($17 499 < -hkq0ym_-ehx_ecgdqzd5_-ov6 "responsibility" 469
+(name "responsibility"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ov6")
+(baseClass "Comment"))
+($17 500 < -hkq0ym_-ehx_ecgdqzd5_-ov5 "self" 469
+(name "self"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ov5")
+(baseClass "AssociationEnd"))
+($17 501 < -hkq0ym_-ehx_ecgdqzd5_-ov4 "stub" 469
+(name "stub"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ov4")
+(baseClass "Package"))
+($17 502 < -hkq0ym_-ehx_ecgdqzd5_-ov3 "systemModel" 469
+(name "systemModel"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ov3")
+(baseClass "Package"))
+($17 503 < -hkq0ym_-ehx_ecgdqzd5_-ov2 "table" 469
+(name "table"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ov2")
+(baseClass "Component"))
+($17 504 < -hkq0ym_-ehx_ecgdqzd5_-ov1 "thread" 469
+(name "thread"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ov1")
+(baseClass "Classifier"))
+($17 505 < -hkq0ym_-ehx_ecgdqzd5_-ov0 "topLevel" 469
+(name "topLevel"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ov0")
+(baseClass "Package"))
+($17 506 < -hkq0ym_-ehx_ecgdqzd5_-ouz "type" 469
+(name "type"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ouz")
+(baseClass "Class"))
+($17 507 < -hkq0ym_-ehx_ecgdqzd5_-ouy "utility" 469
+(name "utility"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ouy")
+(baseClass "Classifier"))
+($17 508 < -hkq0ym_-ehx_ecgdqzd5_-oux "boundary" 469
+(smallImageFile stereotype/image/small/boundary.gif)
+(name "boundary"
+)
+(defaultIconWidth 65)
+(iconFile stereotype/icon/boundary.wmf)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oux")
+(baseClass "Class"))
+($17 509 < -hkq0ym_-ehx_ecgdqzd5_-ouw "entity" 469
+(smallImageFile stereotype/image/small/entity.gif)
+(name "entity"
+)
+(iconFile stereotype/icon/entity.wmf)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ouw")
+(baseClass "Class"))
+($17 510 < -hkq0ym_-ehx_ecgdqzd5_-ouv "control" 469
+(smallImageFile stereotype/image/small/control.gif)
+(name "control"
+)
+(defaultIconWidth 60)
+(iconFile stereotype/icon/control.wmf)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ouv")
+(defaultIconHeight 60)
+(baseClass "Class"))
+($17 511 < -hkq0ym_-ehx_ecgdqzd5_-ouu "interface" 469
+(name "interface"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ouu")
+(baseClass "Class"))
+($17 512 < -hkq0ym_-ehx_ecgdqzd5_-out "body" 469
+(name "body"
+)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-out")
+(baseClass "Component"))
+($18 513 < -hkq0ym_-ehx_ecgdqzd5_-ous "styles" 1
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ous"))
+($7 514 < -hkq0ym_-ehx_ecgdqzd5_-our "Component" 1
+(name "Component"
+)
+(namespaceRoot true)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-our"))
+($7 515 < -hkq0ym_-ehx_ecgdqzd5_-ouq "Usecase" 1
+(name "Usecase"
+)
+(namespaceRoot true)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-ouq"))
+($7 516 < -hkq0ym_-ehx_ecgdqzd5_-oup "Deployment" 1
+(name "Deployment"
+)
+(namespaceRoot true)
+(uid "-hkq0ym_-ehx_ecgdqzd5_-oup"))
+($19 517)
+($20 518)
+($19 519)
+($19 520)
+($19 521)
+($19 522)
+($19 523)
+($19 524)
+($19 525)
+($19 526)
+($19 527)
+($19 528)
+($19 529)
+($19 530)
+($19 531)
+($19 532)
+($19 533)
+($19 534)
+($19 535)
+($19 536)
+($19 537)
+($19 538)
+($19 539)
+($19 540)
+($19 541)
+($19 542)
+($19 543)
+($19 544)
+($19 545)
+($19 546)
+($19 547)
+($19 548)
+($19 549)
+($19 550)
+($19 551)
+($19 552)
+($19 553)
+($19 554)
+($19 555)
+($19 556)
+($19 557)
+($19 558)
+($19 559)
+($19 560)
+($19 561)
+($19 562)
+($19 563)
+($19 564)
+($19 565)
+($19 566)
+($19 567)
+($22 568
+(name "DomainLockObject"
+))
+(typeExpression 61 518)
+(typeExpression 63 518)
+(typeExpression 65 518)
+(typeExpression 66 518)
+(projectionAssn 4 59 517)
+(typeExpression 71 518)
+(typeExpression 72 518)
+(typeExpression 74 518)
+(typeExpression 75 518)
+(typeExpression 77 518)
+(typeExpression 79 518)
+(typeExpression 80 518)
+(projectionAssn 5 69 519)
+(openDiagrams 2 3)
+(subtypeAssn 271 251)
+(generalizationAssn 251 271)
+(typeExpression 253 518)
+(typeExpression 254 518)
+(typeExpression 255 518)
+(typeExpression 256 518)
+(typeExpression 257 518)
+(typeExpression 259 518)
+(typeExpression 261 518)
+(typeExpression 263 518)
+(typeExpression 264 518)
+(typeExpression 266 518)
+(typeExpression 267 518)
+(typeExpression 269 518)
+(typeExpression 270 518)
+(projectionAssn 8 251 521)
+(to 9 7)
+(from 9 8)
+(projectionAssn 9 271 522)
+(subtypeAssn 467 459)
+(generalizationAssn 459 467)
+(typeExpression 461 518)
+(typeExpression 462 518)
+(typeExpression 463 518)
+(typeExpression 465 518)
+(typeExpression 466 518)
+(projectionAssn 10 459 523)
+(to 11 7)
+(from 11 10)
+(projectionAssn 11 467 524)
+(subtypeAssn 291 287)
+(generalizationAssn 287 291)
+(typeExpression 289 518)
+(typeExpression 290 518)
+(projectionAssn 12 287 525)
+(to 13 7)
+(from 13 12)
+(projectionAssn 13 291 526)
+(subtypeAssn 453 448)
+(generalizationAssn 448 453)
+(typeExpression 450 518)
+(typeExpression 451 518)
+(typeExpression 452 518)
+(projectionAssn 15 448 528)
+(to 16 14)
+(from 16 15)
+(projectionAssn 16 453 529)
+(subtypeAssn 300 292)
+(generalizationAssn 292 300)
+(typeExpression 294 518)
+(typeExpression 295 518)
+(typeExpression 296 518)
+(typeExpression 298 518)
+(typeExpression 299 518)
+(projectionAssn 17 292 530)
+(to 18 7)
+(from 18 17)
+(projectionAssn 18 300 531)
+(subtypeAssn 313 308)
+(generalizationAssn 308 313)
+(typeExpression 310 518)
+(typeExpression 311 518)
+(typeExpression 312 518)
+(projectionAssn 19 308 532)
+(to 20 7)
+(from 20 19)
+(projectionAssn 20 313 533)
+(subtypeAssn 323 314)
+(generalizationAssn 314 323)
+(typeExpression 316 518)
+(typeExpression 317 518)
+(typeExpression 318 518)
+(typeExpression 319 518)
+(typeExpression 321 518)
+(typeExpression 322 518)
+(projectionAssn 21 314 534)
+(to 22 7)
+(from 22 21)
+(projectionAssn 22 323 535)
+(subtypeAssn 422 328)
+(generalizationAssn 328 422)
+(typeExpression 330 518)
+(typeExpression 331 518)
+(typeExpression 332 518)
+(typeExpression 333 518)
+(typeExpression 334 518)
+(typeExpression 335 518)
+(typeExpression 336 518)
+(typeExpression 337 518)
+(typeExpression 338 518)
+(typeExpression 339 518)
+(typeExpression 340 518)
+(typeExpression 341 518)
+(typeExpression 342 518)
+(typeExpression 344 518)
+(typeExpression 345 518)
+(typeExpression 347 518)
+(typeExpression 349 518)
+(typeExpression 350 518)
+(typeExpression 351 518)
+(typeExpression 352 518)
+(typeExpression 354 518)
+(typeExpression 355 518)
+(typeExpression 357 518)
+(typeExpression 359 518)
+(typeExpression 360 518)
+(typeExpression 362 518)
+(typeExpression 363 518)
+(typeExpression 365 518)
+(typeExpression 366 518)
+(typeExpression 368 518)
+(typeExpression 369 518)
+(typeExpression 371 518)
+(typeExpression 372 518)
+(typeExpression 374 518)
+(typeExpression 375 518)
+(typeExpression 377 518)
+(typeExpression 378 518)
+(typeExpression 380 518)
+(typeExpression 381 518)
+(typeExpression 383 518)
+(typeExpression 384 518)
+(typeExpression 386 518)
+(typeExpression 388 518)
+(typeExpression 389 518)
+(typeExpression 391 518)
+(typeExpression 392 518)
+(typeExpression 394 518)
+(typeExpression 395 518)
+(typeExpression 396 518)
+(typeExpression 398 518)
+(typeExpression 399 518)
+(typeExpression 400 518)
+(typeExpression 402 518)
+(typeExpression 403 518)
+(typeExpression 405 518)
+(typeExpression 406 518)
+(typeExpression 408 518)
+(typeExpression 409 518)
+(typeExpression 410 518)
+(typeExpression 412 518)
+(typeExpression 413 518)
+(typeExpression 415 518)
+(typeExpression 416 518)
+(typeExpression 417 518)
+(typeExpression 418 518)
+(typeExpression 419 518)
+(typeExpression 420 518)
+(typeExpression 421 518)
+(projectionAssn 25 328 538)
+(to 26 23)
+(from 26 25)
+(projectionAssn 26 422 539)
+(subtypeAssn 327 324)
+(generalizationAssn 324 327)
+(typeExpression 326 518)
+(projectionAssn 27 324 540)
+(to 28 24)
+(from 28 27)
+(projectionAssn 28 327 541)
+(typeExpression 455 518)
+(typeExpression 457 518)
+(typeExpression 458 518)
+(projectionAssn 29 454 542)
+(subtypeAssn 307 301)
+(generalizationAssn 301 307)
+(typeExpression 303 518)
+(typeExpression 304 518)
+(typeExpression 305 518)
+(typeExpression 306 518)
+(projectionAssn 30 301 543)
+(to 31 7)
+(from 31 30)
+(projectionAssn 31 307 544)
+(subtypeAssn 286 282)
+(generalizationAssn 282 286)
+(typeExpression 284 518)
+(typeExpression 285 518)
+(projectionAssn 32 282 545)
+(to 33 7)
+(from 33 32)
+(projectionAssn 33 286 546)
+(subtypeAssn 281 277)
+(generalizationAssn 277 281)
+(typeExpression 279 518)
+(typeExpression 280 518)
+(projectionAssn 34 277 547)
+(to 35 7)
+(from 35 34)
+(projectionAssn 35 281 548)
+(subtypeAssn 276 272)
+(generalizationAssn 272 276)
+(typeExpression 274 518)
+(typeExpression 275 518)
+(projectionAssn 36 272 549)
+(to 37 7)
+(from 37 36)
+(projectionAssn 37 276 550)
+(subtypeAssn 447 423)
+(generalizationAssn 423 447)
+(typeExpression 425 518)
+(typeExpression 426 518)
+(typeExpression 427 518)
+(typeExpression 428 518)
+(typeExpression 429 518)
+(typeExpression 430 518)
+(typeExpression 431 518)
+(typeExpression 432 518)
+(typeExpression 433 518)
+(typeExpression 434 518)
+(typeExpression 435 518)
+(typeExpression 436 518)
+(typeExpression 437 518)
+(typeExpression 439 518)
+(typeExpression 440 518)
+(typeExpression 442 518)
+(typeExpression 443 518)
+(typeExpression 445 518)
+(typeExpression 446 518)
+(projectionAssn 38 423 551)
+(to 39 7)
+(from 39 38)
+(projectionAssn 39 447 552)
+(openDiagrams 2 6)
+(typeExpression 100 518)
+(typeExpression 101 518)
+(typeExpression 102 518)
+(typeExpression 104 518)
+(typeExpression 105 518)
+(typeExpression 107 518)
+(typeExpression 108 518)
+(typeExpression 110 518)
+(projectionAssn 41 98 553)
+(openDiagrams 2 40)
+(typeExpression 144 518)
+(typeExpression 145 518)
+(typeExpression 146 518)
+(typeExpression 147 518)
+(typeExpression 148 518)
+(typeExpression 150 518)
+(typeExpression 152 518)
+(typeExpression 154 518)
+(typeExpression 155 518)
+(typeExpression 156 518)
+(projectionAssn 44 142 554)
+(to 43 44)
+(subtypeAssn 184 157)
+(supertypeAssn 184 142)
+(generalizationAssn 157 184)
+(typeExpression 159 518)
+(typeExpression 160 518)
+(typeExpression 161 518)
+(typeExpression 162 518)
+(typeExpression 163 518)
+(typeExpression 164 518)
+(typeExpression 165 518)
+(typeExpression 166 518)
+(typeExpression 168 518)
+(typeExpression 170 518)
+(typeExpression 172 518)
+(typeExpression 174 518)
+(typeExpression 176 518)
+(typeExpression 177 518)
+(typeExpression 178 518)
+(typeExpression 179 518)
+(typeExpression 181 518)
+(typeExpression 182 518)
+(typeExpression 183 518)
+(projectionAssn 46 157 555)
+(from 43 46)
+(projectionAssn 43 184 556)
+(subtypeAssn 204 186)
+(supertypeAssn 204 142)
+(generalizationAssn 186 204)
+(typeExpression 188 518)
+(typeExpression 189 518)
+(typeExpression 190 518)
+(typeExpression 191 518)
+(typeExpression 192 518)
+(typeExpression 194 518)
+(typeExpression 196 518)
+(typeExpression 197 518)
+(typeExpression 198 518)
+(typeExpression 199 518)
+(typeExpression 201 518)
+(typeExpression 202 518)
+(typeExpression 203 518)
+(projectionAssn 45 186 557)
+(to 47 44)
+(from 47 45)
+(projectionAssn 47 204 558)
+(typeExpression 84 518)
+(typeExpression 85 518)
+(typeExpression 86 518)
+(typeExpression 87 518)
+(typeExpression 88 518)
+(typeExpression 89 518)
+(typeExpression 90 518)
+(typeExpression 92 518)
+(typeExpression 94 518)
+(typeExpression 96 518)
+(projectionAssn 48 82 559)
+(typeExpression 113 518)
+(typeExpression 114 518)
+(typeExpression 116 518)
+(typeExpression 117 518)
+(typeExpression 118 518)
+(typeExpression 120 518)
+(typeExpression 121 518)
+(typeExpression 123 518)
+(typeExpression 124 518)
+(typeExpression 126 518)
+(typeExpression 127 518)
+(typeExpression 128 518)
+(typeExpression 129 518)
+(typeExpression 130 518)
+(typeExpression 132 518)
+(typeExpression 133 518)
+(typeExpression 134 518)
+(typeExpression 136 518)
+(typeExpression 137 518)
+(typeExpression 139 518)
+(typeExpression 140 518)
+(typeExpression 141 518)
+(projectionAssn 49 111 560)
+(typeAssn 222 206)
+(assocEndAssn 206 222)
+(typeExpression 208 518)
+(typeExpression 209 518)
+(typeExpression 210 518)
+(typeExpression 211 518)
+(typeExpression 212 518)
+(typeExpression 213 518)
+(typeExpression 214 518)
+(typeExpression 216 518)
+(typeExpression 218 518)
+(typeExpression 220 518)
+(assocEndAssn 225 223)
+(typeExpression 227 518)
+(typeExpression 228 518)
+(typeExpression 229 518)
+(typeExpression 231 518)
+(typeExpression 232 518)
+(typeAssn 223 225)
+(projectionAssn 50 206 561)
+(projectionAssn 51 225 562)
+(typeExpression 236 518)
+(typeExpression 237 518)
+(typeExpression 238 518)
+(typeExpression 239 518)
+(typeExpression 240 518)
+(typeExpression 242 518)
+(typeExpression 244 518)
+(typeExpression 246 518)
+(typeExpression 247 518)
+(typeExpression 248 518)
+(projectionAssn 52 234 563)
+(to 53 51)
+(from 53 50)
+(projectionAssn 53 221 564)
+(openDiagrams 2 42)
+(openDiagrams 2 54)
+(lockedBy 470 568)
+(stereotypeAssn 58 470)
+(lockedBy 58 568)
+(lockedBy 469 568)
+(lockedBy 513 568)
+(stereotypeAssn 514 470)
+(lockedBy 514 568)
+(stereotypeAssn 515 470)
+(lockedBy 515 568)
+(stereotypeAssn 516 470)
+(lockedBy 516 568)
+(lockedBy 1 568)

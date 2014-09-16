@@ -1,0 +1,45 @@
+----------------------------
+Major Changes
+----------------------------
+Export
+(1) New language font dialog in Export --> Options crashes when inserting a path to the font
+!!! Can't reproduce it. Need more details. What it writes when it crashes. How it looks? What exactly one have to do to make it crash?
+(2) Export to PDF is showing Gurmukhi characters in the wrong places [see screenshot export.gif & test.pdf]
+!!! New way of finding fonts added. Now you have to specify the directory with fonts and the system selects the proper font.
+(3) Export to PDF is not showing the unicode transliteration characters [see screenshot export.gif & test.pdf]
+(4) Export to both PDF and HTML is showing translation, transliteration, gurmukhi and details twice  [see screenshot export.gif & test.pdf]
+!!! It's not. I just copied data in xml file to test moving between pages. It founds different hymns as it thinks, at least they are situated on different pages. See xml files in data directory to understand.
+(5) HTML export is not working for a table
+!!! HTML export is hidden for now until I find a nice tool for export
+
+Search
+(1) As soon as Sikher is loaded and the search button clicked right away then the transliteration shows twice but the Gurbani does not show [see screenshot startup1.gif] until Type is selected to Gurbani and search button is clicked again [see screenshot startup2.gif]
+!!! Fixed
+
+(2) If scripture, author and a raag are selected and search button is clicked, no results show
+
+Akand Paath
+(1) Some characters not showing in the transliteration [see screenshot export.gif & test.pdf]
+!!! User should define a font for transliteration couse it contains some not English characters
+
+Gurmukhi Font
+(1) There needs to be an option to choose the font size and various colour variables in Sikher, because the Unicode keyboard and text is too small to see
+(2) Is there no way to automatically detect the required fonts? Maybe have a fonts folder in Sikher?
+
+----------------------------
+Minor Changes
+----------------------------
+(1) The details do not have any hyperlinks on them like the Gurbani, Translation and Transliteration
+(2) The right click menu should have options for the line, shabad, page and results
+e.g.
+Line --> Copy all, Copy Gurbani, Copy Transliteration, Copy Translation, Copy Details
+Shabad -->  Copy all, Copy Gurbani, Copy Transliteration, Copy Translation, Copy Details
+Page --> Copy all, Copy Gurbani, Copy Transliteration, Copy Translation, Copy Details
+Results -->  Copy all, Copy Gurbani, Copy Transliteration, Copy Translation, Copy Details
+(3) The splash screen should tell the user what is being loaded.
+(4) The exit button on the top menu does not work
+!!! Fixed
+(5) Print and print preview can be removed
+!!! Hidden for now
+(6) About box needs to be added
+

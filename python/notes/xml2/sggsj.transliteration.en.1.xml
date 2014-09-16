@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlGurbani xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bani.xsd" book="sggsj" language="en" version="2.0" status="incomplete" type="transliteration">
+	<information>
+		<author>Kulbir Singh Thind</author>
+		<date>2005-08-29</date>
+		<description>This is a very accurate transliteration.</description>
+		<language>English</language>
+		<type>Transliteration</type>
+	</information>
+	<book number="1">
+		<page number="1">
+			<hymn number="1" author="1" melody="1">
+				<line number="1" lnumber="1">ik ounkaar sath naam kuruthaa purukh nirubho niruvair akaal moorath ajoonee saibhun gur prusaadh</line>
+				<line number="2" lnumber="3">jap</line>
+				<line number="3" lnumber="4">aadh such jugaadh such</line>
+				<line number="4" lnumber="4">hai bhee such naanuk hosee bhee such</line>
+				<line number="5" lnumber="5">sochai soch n hovee jae sochee lukh vaar</line>
+				<line number="6" lnumber="5">chupai chup n hovee jae laae rehaa liv thaar</line>
+ 				<line number="7" lnumber="5">bhukhiaa bhukh n outhuree jae bunnaa pureeaa bhaar</line>
+				<line number="8" lnumber="6">sehus siaanupaa lukh hohi th eik n chulai naal</line>
+				<line number="9" lnumber="6">kiv sachiaaraa hoeeai kiv koorrai thuttai paal</line>
+				<line number="10" lnumber="7">hukam rujaaee chulunaa naanuk likhiaa naal</line>
+			</hymn>
+			<hymn number="2" author="1" melody="1">
+				<line number="1" lnumber="7">hukumee hovan aakaar hukum n kehiaa jaaee</line>
+				<line number="2" lnumber="8">hukumee hovan jeea hukam milai vaddiaaee</line>
+				<line number="3" lnumber="8">hukumee outhum neech hukam likh dhukh sukh paaeeahi</line>
+				<line number="4" lnumber="9">eikunaa hukumee bukhusees eik hukumee sudhaa bhuvaaeeahi</line>
+				<line number="5" lnumber="9">hukumai andhar subh ko baahar hukum n koe</line>
+				<line number="6" lnumber="10">naanuk hukumai jae bujhai th houmai kehai n koe</line>
+			</hymn>
+			<hymn number="3" author="1" melody="1">
+				<line number="1" lnumber="10">gaavai ko thaan hovai kisai thaan</line>
+				<line number="2" lnumber="11">gaavai ko dhaath jaanai neesaan</line>
+				<line number="3" lnumber="11">gaavai ko gun vaddiaaeeaa chaar</line>
+				<line number="4" lnumber="11">gaavai ko vidhiaa vikhum veechaar</line>
+				<line number="5" lnumber="12">gaavai ko saaj kurae thun khaeh</line>
+				<line number="6" lnumber="12">gaavai ko jeea lai fir dhaeh</line>
+				<line number="7" lnumber="12">gaavai ko jaapai dhisai dhoor</line>
+			</hymn>
+		</page>
+	</book>
+</xmlGurbani>

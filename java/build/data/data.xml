@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data lang="EN">
+    <scriptures>
+        <scripture number="1" name="Shri Guru Granth Sahib Ji" />
+        <scripture number="2" name="Nitnem" />
+        <scripture number="3" name="Ardaas" />
+        <scripture number="4" name="Amrit Keertan" />
+        <scripture number="5" name="Bhai Gurdaas Vaaran" />
+        <scripture number="6" name="Bhai Nand Lal Bani" />
+    </scriptures>
+    <authors>
+        <author number="1" name="Guru Nanak Dev" type="1" />
+        <author number="2" name="Guru Angad Dev" type="1" />
+        <author number="3" name="Guru Amar Das" type="1" />
+        <author number="4" name="Guru Ram Das" type="1" />
+        <author number="5" name="Guru Arjan Dev" type="1" />
+        <author number="6" name="Guru Tegh Bahadur" type="1" />
+        <author number="7" name="Bhagat Kabir" type="2" />
+        <author number="8" name="Sheikh Farid" type="2" />
+        <author number="9" name="Bhagat Namdev" type="2" />
+        <author number="10" name="Bhagat Ravidas" type="2" />
+        <author number="11" name="Bhagat Trilochan" type="2" />
+        <author number="12" name="Bhagat Baini" type="2" />
+        <author number="13" name="Bhagat Dhana" type="2" />
+        <author number="14" name="Bhagat Jaidev" type="2" />
+        <author number="15" name="Shiekh Bhikhan" type="2" />
+        <author number="16" name="Bhagat Parmanand" type="2" />
+        <author number="17" name="Bhagat Ramanand" type="2" />
+        <author number="18" name="Bhagat Sain" type="2" />
+        <author number="19" name="Bhagat Pipa" type="2" />
+        <author number="20" name="Bhagat Sadhna" type="2" />
+        <author number="21" name="Bhagat Soordas" type="2" />
+        <author number="22" name="Balwand and Sata" type="3" />
+        <author number="23" name="Baba Sundar" type="3" />
+        <author number="24" name="Bhai Mardana" type="3" />
+        <author number="25" name="Bard Sal" type="4" />
+        <author number="26" name="Bard Harbans" type="4" />
+        <author number="27" name="Bard Kal-sahar" type="4" />
+        <author number="28" name="Bard Kirat" type="4" />
+        <author number="29" name="Bard Ga-yand" type="4" />
+        <author number="30" name="Bard Jalap" type="4" />
+        <author number="31" name="Bard Nal" type="4" />
+        <author number="32" name="Bard Bal" type="4" />
+        <author number="33" name="Bard Bhal" type="4" />
+        <author number="34" name="Bard Bhikha" type="4" />
+        <author number="35" name="Bard Mathura" type="4" />
+        <author number="36" name="Bhai Gurdaas" type="3" />
+        <author number="37" name="Guru Gobind Singh" type="1" />
+        <author number="38" name="Bhai Nand Lal" type="3" />
+    </authors>
+    <raags>
+        <raag number="1" name="Jap" />
+        <raag number="2" name="Siri Raag" />
+        <raag number="3" name="Majh" />
+        <raag number="4" name="Gauri Guarairee" />
+        <raag number="5" name="Gauri" />
+        <raag number="6" name="Gauri Dakhanee" />
+        <raag number="7" name="Gauri Chaitee" />
+        <raag number="8" name="Gauri Bairaagan" />
+        <raag number="9" name="Gauri Deepakee" />
+        <raag number="10" name="Gauri Purbi Deepakee" />
+        <raag number="11" name="Gauri Purbi" />
+        <raag number="12" name="Gauri Majh" />
+        <raag number="13" name="Gauri Malva" />
+        <raag number="14" name="Gauri Mala" />
+        <raag number="15" name="Gauri Sorath" />
+        <raag number="16" name="Asa" />
+        <raag number="17" name="Asawari" />
+        <raag number="18" name="Asa Kafi" />
+        <raag number="19" name="Gujari" />
+        <raag number="20" name="Devgandhari" />
+        <raag number="21" name="Bihagra" />
+        <raag number="22" name="Vaddhans" />
+        <raag number="23" name="Vaddhans Dakhanee" />
+        <raag number="24" name="Sorath" />
+        <raag number="25" name="Dhanasri" />
+        <raag number="26" name="Jaitsiri" />
+        <raag number="27" name="Todi" />
+        <raag number="28" name="Bairarri" />
+        <raag number="29" name="Tilang" />
+        <raag number="30" name="Tilang Kafi" />
+        <raag number="31" name="Suhee" />
+        <raag number="32" name="Suhee Kafi" />
+        <raag number="33" name="Suhee Lalit" />
+        <raag number="34" name="Bilaval" />
+        <raag number="35" name="Bilaval Dakhanee" />
+        <raag number="36" name="Gound" />
+        <raag number="37" name="Bilaval Gound" />
+        <raag number="38" name="Ramkali" />
+        <raag number="39" name="Ramkali Dakhanee" />
+        <raag number="40" name="Nat Narayan" />
+        <raag number="41" name="Nat" />
+        <raag number="42" name="Mali Gaura" />
+        <raag number="43" name="Maru" />
+        <raag number="44" name="Maru Kafi" />
+        <raag number="45" name="Maru Dakhanee" />
+        <raag number="46" name="Tukharee" />
+        <raag number="47" name="Kedara" />
+        <raag number="48" name="Bhairow" />
+        <raag number="49" name="Basant" />
+        <raag number="50" name="Basant Hindol" />
+        <raag number="51" name="Sarang" />
+        <raag number="52" name="Malhar" />
+        <raag number="53" name="Kanra" />
+        <raag number="54" name="Kaliyaan" />
+        <raag number="55" name="Kaliyaan Bhopali" />
+        <raag number="56" name="Parbhati Bibhas" />
+        <raag number="57" name="Parbhati" />
+        <raag number="58" name="Parbhati Dakhanee" />
+        <raag number="59" name="Bibhas Parbhati" />
+        <raag number="60" name="Jaijawantee" />
+        <raag number="61" name="None" />
+        <raag number="62" name="Vaar" />
+    </raags>
+</data>

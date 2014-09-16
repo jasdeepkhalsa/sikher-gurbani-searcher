@@ -1,0 +1,1 @@
+D:\gnu\Python23\python.exe ./sikher.py

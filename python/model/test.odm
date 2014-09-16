@@ -1,0 +1,375 @@
+ObjectDomain_Model 15
+{-hkq0ym_-ehx_eckmc12l_-p94 0
+}[objectdomain.uml.mechanisms.UmlPackage-owns $6
+objectdomain.uml.core.Projection $14
+objectdomain.uml.core.UmlAssociationEnd-connections $10
+objectdomain.uml.view.ClassView-owns $4
+objectdomain.uml.core.UmlAssociation-owns $9
+objectdomain.uml.view.Diagram-owns $3
+objectdomain.uml.core.UmlOperation-features $8
+objectdomain.domain.ModelEnvironment-owns $2
+objectdomain.uml.mechanisms.StylePackage-owns $13
+objectdomain.uml.mechanisms.StereotypePackage-owns $11
+objectdomain.uml.core.UmlClass-owns $7
+objectdomain.domain.DomainLockObject $15
+objectdomain.uml.view.AssociationView-owns $5
+objectdomain.uml.mechanisms.UmlModel-models $1
+objectdomain.uml.core.Stereotype-owns $12
+]
+($1 1 > -hkq0ym_-ehx_eckmc12l_-p94 0
+(name "Model"
+)
+(namespaceRoot true)
+(uid "-hkq0ym_-ehx_eckmc12l_-p94"))
+($2 2 < -hkq0ym_-ehx_eckmc12l_-p93 "ModelEnvironment" 1
+(uid "-hkq0ym_-ehx_eckmc12l_-p93"))
+($6 9 < -hkq0ym_-ehx_eckmc12l_-p98 "Logical" 1
+(name "Logical"
+)
+(namespaceRoot true)
+(uid "-hkq0ym_-ehx_eckmc12l_-p98"))
+($3 3 < -hkq0ym_-ehx_eckmc12l_-p95 "Class Diagram" 9
+(name "Class Diagram"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p95")
+(diagramType "class"))
+($4 4 < -hkq0ym_-ehx_eckmc12l_-p92 "BaseClass" 3
+(autoSizeToFit true)
+(uid "-hkq0ym_-ehx_eckmc12l_-p92")
+(bbx 70 10 120 100))
+($4 5 < -hkq0ym_-ehx_eckmhp8b_-p94 "Class" 3
+(uid "-hkq0ym_-ehx_eckmhp8b_-p94")
+(bbx 90 210 100 50))
+($4 6 < -hkq0ym_-ehx_eckmhp8b_-p93 "Class1" 3
+(uid "-hkq0ym_-ehx_eckmhp8b_-p93")
+(bbx 290 30 100 50))
+($5 7 < -hkq0ym_-ehx_eckmhp8b_-p92 "" 3
+(uid "-hkq0ym_-ehx_eckmhp8b_-p92")
+(points 190 59 290 56)
+(lineStyle "oblique"))
+($5 8 < -hkq0ym_-ehx_eckmhp8b_-p91 "" 3
+(uid "-hkq0ym_-ehx_eckmhp8b_-p91")
+(points 139 210 133 110)
+(lineStyle "oblique"))
+($7 10 < -hkq0ym_-ehx_eckmc12l_-p97 "BaseClass" 9
+(name "BaseClass"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p97"))
+($8 11 < -hkq0ym_-ehx_eckmc12l_-p96 "__init__" 10
+(name "__init__"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p96"))
+($8 12 < -hkq0ym_-ehx_eckmge0o_-p98 "Out" 10
+(name "Out"
+)
+(uid "-hkq0ym_-ehx_eckmge0o_-p98"))
+($8 13 < -hkq0ym_-ehx_eckmge0o_-p97 "Test" 10
+(name "Test"
+)
+(uid "-hkq0ym_-ehx_eckmge0o_-p97"))
+($9 14 < -hkq0ym_-ehx_eckmhp8b_-p96 "#<anon> (BaseClass, Class1)" 10
+(name "")
+(uid "-hkq0ym_-ehx_eckmhp8b_-p96"))
+($10 15 < -hkq0ym_-ehx_eckmhp8b_-p90 "#0" 14
+(aggregation "aggregate")
+(uid "-hkq0ym_-ehx_eckmhp8b_-p90"))
+($10 16 < -hkq0ym_-ehx_eckmhp8b_-p8z "#1" 14
+(uid "-hkq0ym_-ehx_eckmhp8b_-p8z"))
+($7 17 < -hkq0ym_-ehx_eckmhp8b_-p98 "Class" 9
+(name "Class"
+)
+(uid "-hkq0ym_-ehx_eckmhp8b_-p98"))
+($9 18 < -hkq0ym_-ehx_eckmhp8b_-p95 "#<anon> (Class, BaseClass)" 17
+(name "")
+(uid "-hkq0ym_-ehx_eckmhp8b_-p95"))
+($10 19 < -hkq0ym_-ehx_eckmhp8b_-p8y "#0" 18
+(aggregation "aggregate")
+(uid "-hkq0ym_-ehx_eckmhp8b_-p8y"))
+($10 20 < -hkq0ym_-ehx_eckmhp8b_-p8x "#1" 18
+(uid "-hkq0ym_-ehx_eckmhp8b_-p8x"))
+($7 21 < -hkq0ym_-ehx_eckmhp8b_-p97 "Class1" 9
+(name "Class1"
+)
+(uid "-hkq0ym_-ehx_eckmhp8b_-p97"))
+($11 22 < -hkq0ym_-ehx_eckmc12l_-p91 "stereotypes" 1
+(uid "-hkq0ym_-ehx_eckmc12l_-p91"))
+($12 23 < -hkq0ym_-ehx_eckmc12l_-p90 "_odPackage" 22
+(name "_odPackage"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p90")
+(baseClass "Package"))
+($12 24 < -hkq0ym_-ehx_eckmc12l_-p8z "odStub" 22
+(name "odStub"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8z"))
+($12 25 < -hkq0ym_-ehx_eckmc12l_-p8y "access" 22
+(name "access"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8y")
+(baseClass "Dependency"))
+($12 26 < -hkq0ym_-ehx_eckmc12l_-p8x "association" 22
+(name "association"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8x")
+(baseClass "AssociationEnd"))
+($12 27 < -hkq0ym_-ehx_eckmc12l_-p8w "create" 22
+(name "create"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8w")
+(baseClass "BehavioralFeature"))
+($12 28 < -hkq0ym_-ehx_eckmc12l_-p8v "destroy" 22
+(name "destroy"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8v")
+(baseClass "BehavioralFeature"))
+($12 29 < -hkq0ym_-ehx_eckmc12l_-p8u "document" 22
+(name "document"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8u")
+(baseClass "Component"))
+($12 30 < -hkq0ym_-ehx_eckmc12l_-p8t "executable" 22
+(name "executable"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8t")
+(baseClass "Component"))
+($12 31 < -hkq0ym_-ehx_eckmc12l_-p8s "extend" 22
+(name "extend"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8s")
+(baseClass "Dependency"))
+($12 32 < -hkq0ym_-ehx_eckmc12l_-p8r "facade" 22
+(name "facade"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8r")
+(baseClass "Package"))
+($12 33 < -hkq0ym_-ehx_eckmc12l_-p8q "file" 22
+(name "file"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8q")
+(baseClass "Component"))
+($12 34 < -hkq0ym_-ehx_eckmc12l_-p8p "framework" 22
+(name "framework"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8p")
+(baseClass "Package"))
+($12 35 < -hkq0ym_-ehx_eckmc12l_-p8o "friend" 22
+(name "friend"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8o")
+(baseClass "Dependency"))
+($12 36 < -hkq0ym_-ehx_eckmc12l_-p8n "global" 22
+(name "global"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8n")
+(baseClass "AssociationEnd"))
+($12 37 < -hkq0ym_-ehx_eckmc12l_-p8m "implementation" 22
+(name "implementation"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8m")
+(baseClass "Generalization"))
+($12 38 < -hkq0ym_-ehx_eckmc12l_-p8l "implementationClass" 22
+(name "implementationClass"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8l")
+(baseClass "Class"))
+($12 39 < -hkq0ym_-ehx_eckmc12l_-p8k "import" 22
+(name "import"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8k")
+(baseClass "Dependency"))
+($12 40 < -hkq0ym_-ehx_eckmc12l_-p8j "include" 22
+(name "include"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8j")
+(baseClass "Dependency"))
+($12 41 < -hkq0ym_-ehx_eckmc12l_-p8i "invariant" 22
+(name "invariant"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8i")
+(baseClass "Constraint"))
+($12 42 < -hkq0ym_-ehx_eckmc12l_-p8h "library" 22
+(name "library"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8h")
+(baseClass "Component"))
+($12 43 < -hkq0ym_-ehx_eckmc12l_-p8g "local" 22
+(name "local"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8g")
+(baseClass "AssociationEnd"))
+($12 44 < -hkq0ym_-ehx_eckmc12l_-p8f "metaclass" 22
+(name "metaclass"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8f")
+(baseClass "Classifier"))
+($12 45 < -hkq0ym_-ehx_eckmc12l_-p8e "metamodel" 22
+(name "metamodel"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8e")
+(baseClass "Package"))
+($12 46 < -hkq0ym_-ehx_eckmc12l_-p8d "parameter" 22
+(name "parameter"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8d")
+(baseClass "AssociationEnd"))
+($12 47 < -hkq0ym_-ehx_eckmc12l_-p8c "postcondition" 22
+(name "postcondition"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8c")
+(baseClass "Constraint"))
+($12 48 < -hkq0ym_-ehx_eckmc12l_-p8b "powertype" 22
+(name "powertype"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8b")
+(baseClass "Classifier"))
+($12 49 < -hkq0ym_-ehx_eckmc12l_-p8a "precondition" 22
+(name "precondition"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p8a")
+(baseClass "Constraint"))
+($12 50 < -hkq0ym_-ehx_eckmc12l_-p89 "process" 22
+(name "process"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p89")
+(baseClass "Classifier"))
+($12 51 < -hkq0ym_-ehx_eckmc12l_-p88 "requirement" 22
+(name "requirement"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p88")
+(baseClass "Comment"))
+($12 52 < -hkq0ym_-ehx_eckmc12l_-p87 "responsibility" 22
+(name "responsibility"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p87")
+(baseClass "Comment"))
+($12 53 < -hkq0ym_-ehx_eckmc12l_-p86 "self" 22
+(name "self"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p86")
+(baseClass "AssociationEnd"))
+($12 54 < -hkq0ym_-ehx_eckmc12l_-p85 "stub" 22
+(name "stub"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p85")
+(baseClass "Package"))
+($12 55 < -hkq0ym_-ehx_eckmc12l_-p84 "systemModel" 22
+(name "systemModel"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p84")
+(baseClass "Package"))
+($12 56 < -hkq0ym_-ehx_eckmc12l_-p83 "table" 22
+(name "table"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p83")
+(baseClass "Component"))
+($12 57 < -hkq0ym_-ehx_eckmc12l_-p82 "thread" 22
+(name "thread"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p82")
+(baseClass "Classifier"))
+($12 58 < -hkq0ym_-ehx_eckmc12l_-p81 "topLevel" 22
+(name "topLevel"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p81")
+(baseClass "Package"))
+($12 59 < -hkq0ym_-ehx_eckmc12l_-p80 "type" 22
+(name "type"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p80")
+(baseClass "Class"))
+($12 60 < -hkq0ym_-ehx_eckmc12l_-p7z "utility" 22
+(name "utility"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p7z")
+(baseClass "Classifier"))
+($12 61 < -hkq0ym_-ehx_eckmc12l_-p7y "boundary" 22
+(smallImageFile stereotype/image/small/boundary.gif)
+(name "boundary"
+)
+(defaultIconWidth 65)
+(iconFile stereotype/icon/boundary.wmf)
+(uid "-hkq0ym_-ehx_eckmc12l_-p7y")
+(baseClass "Class"))
+($12 62 < -hkq0ym_-ehx_eckmc12l_-p7x "entity" 22
+(smallImageFile stereotype/image/small/entity.gif)
+(name "entity"
+)
+(iconFile stereotype/icon/entity.wmf)
+(uid "-hkq0ym_-ehx_eckmc12l_-p7x")
+(baseClass "Class"))
+($12 63 < -hkq0ym_-ehx_eckmc12l_-p7w "control" 22
+(smallImageFile stereotype/image/small/control.gif)
+(name "control"
+)
+(defaultIconWidth 60)
+(iconFile stereotype/icon/control.wmf)
+(uid "-hkq0ym_-ehx_eckmc12l_-p7w")
+(defaultIconHeight 60)
+(baseClass "Class"))
+($12 64 < -hkq0ym_-ehx_eckmc12l_-p7v "interface" 22
+(name "interface"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p7v")
+(baseClass "Class"))
+($12 65 < -hkq0ym_-ehx_eckmc12l_-p7u "body" 22
+(name "body"
+)
+(uid "-hkq0ym_-ehx_eckmc12l_-p7u")
+(baseClass "Component"))
+($13 66 < -hkq0ym_-ehx_eckmc12l_-p7t "styles" 1
+(uid "-hkq0ym_-ehx_eckmc12l_-p7t"))
+($6 67 < -hkq0ym_-ehx_eckmc12l_-p7s "Component" 1
+(name "Component"
+)
+(namespaceRoot true)
+(uid "-hkq0ym_-ehx_eckmc12l_-p7s"))
+($6 68 < -hkq0ym_-ehx_eckmc12l_-p7r "Usecase" 1
+(name "Usecase"
+)
+(namespaceRoot true)
+(uid "-hkq0ym_-ehx_eckmc12l_-p7r"))
+($6 69 < -hkq0ym_-ehx_eckmc12l_-p7q "Deployment" 1
+(name "Deployment"
+)
+(namespaceRoot true)
+(uid "-hkq0ym_-ehx_eckmc12l_-p7q"))
+($14 70)
+($14 71)
+($14 72)
+($14 73)
+($14 74)
+($15 75
+(name "DomainLockObject"
+))
+(typeAssn 15 10)
+(assocEndAssn 10 15)
+(typeAssn 20 10)
+(assocEndAssn 10 20)
+(stereotypeAssn 11 27)
+(assocEndAssn 21 16)
+(typeAssn 16 21)
+(projectionAssn 4 10 70)
+(typeAssn 19 17)
+(assocEndAssn 17 19)
+(projectionAssn 5 17 71)
+(projectionAssn 6 21 72)
+(to 7 6)
+(from 7 4)
+(projectionAssn 7 14 73)
+(to 8 4)
+(from 8 5)
+(projectionAssn 8 18 74)
+(openDiagrams 2 3)
+(selection 2 8)
+(lockedBy 23 75)
+(stereotypeAssn 9 23)
+(lockedBy 9 75)
+(lockedBy 22 75)
+(lockedBy 66 75)
+(stereotypeAssn 67 23)
+(lockedBy 67 75)
+(stereotypeAssn 68 23)
+(lockedBy 68 75)
+(stereotypeAssn 69 23)
+(lockedBy 69 75)
+(lockedBy 1 75)

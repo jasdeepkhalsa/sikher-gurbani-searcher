@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="xmlgurbani.css" type="text/css"?>
+<xmlGurbani xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="bani.xsd"
+	book="sggsj" language="pa-IN" version="3.0" status="incomplete" type="gurbani">
+    <information>
+        <author>Unknown</author>
+        <date>2005-08-16</date>
+        <description>This is the latest and most complete version of the Shri Guru Granth Sahib Ji to date.</description>
+        <language>Gurmukhi</language>
+        <type>Gurbani</type>
+    </information>
+    <book number="1">
+        <page number="1">
+            <hymn number="1" author="1" melody="1">
+                <line number="1" lnumber="1">ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ ਨਿਰਭਉ ਨਿਰਵੈਰੁ ਅਕਾਲ ਮੂਰਤਿ ਅਜੂਨੀ ਸੈਭੰ ਗੁਰ ਪ੍ਰਸਾਦਿ ॥</line>
+                <line number="2" lnumber="3">॥ ਜਪੁ ॥</line>
+                <line number="3" lnumber="4">ਆਦਿ ਸਚੁ ਜੁਗਾਦਿ ਸਚੁ ॥</line>
+                <line number="4" lnumber="4">ਹੈ ਭੀ ਸਚੁ ਨਾਨਕ ਹੋਸੀ ਭੀ ਸਚੁ ॥੧॥</line>
+                <line number="5" lnumber="5">ਸੋਚੈ ਸੋਚਿ ਨ ਹੋਵਈ ਜੇ ਸੋਚੀ ਲਖ ਵਾਰ ॥</line>
+                <line number="6" lnumber="5">ਚੁਪੈ ਚੁਪ ਨ ਹੋਵਈ ਜੇ ਲਾਇ ਰਹਾ ਲਿਵ ਤਾਰ ॥</line>
+                <line number="7" lnumber="5">ਭੁਖਿਆ ਭੁਖ ਨ ਉਤਰੀ ਜੇ ਬੰਨਾ ਪੁਰੀਆ ਭਾਰ ॥</line>
+                <line number="8" lnumber="6">ਸਹਸ ਸਿਆਣਪਾ ਲਖ ਹੋਹਿ ਤ ਇਕ ਨ ਚਲੈ ਨਾਲਿ ॥</line>
+                <line number="9" lnumber="6">ਕਿਵ ਸਚਿਆਰਾ ਹੋਈਐ ਕਿਵ ਕੂੜੈ ਤੁਟੈ ਪਾਲਿ ॥</line>
+                <line number="10" lnumber="7">ਹੁਕਮਿ ਰਜਾਈ ਚਲਣਾ ਨਾਨਕ ਲਿਖਿਆ ਨਾਲਿ ॥੧॥</line>
+            </hymn>
+            <hymn number="2" author="1" melody="1">
+                <line number="11" lnumber="7">ਹੁਕਮੀ ਹੋਵਨਿ ਆਕਾਰ ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ ॥</line>
+                <line number="12" lnumber="8">ਹੁਕਮੀ ਹੋਵਨਿ ਜੀਅ ਹੁਕਮਿ ਮਿਲੈ ਵਡਿਆਈ ॥</line>
+                <line number="13" lnumber="8">ਹੁਕਮੀ ਉਤਮੁ ਨੀਚੁ ਹੁਕਮਿ ਲਿਖਿ ਦੁਖ ਸੁਖ ਪਾਈਅਹਿ ॥</line>
+                <line number="14" lnumber="9">ਇਕਨਾ ਹੁਕਮੀ ਬਖਸੀਸ ਇਕਿ ਹੁਕਮੀ ਸਦਾ ਭਵਾਈਅਹਿ ॥</line>
+                <line number="15" lnumber="9">ਹੁਕਮੈ ਅੰਦਰਿ ਸਭੁ ਕੋ ਬਾਹਰਿ ਹੁਕਮ ਨ ਕੋਇ ॥</line>
+                <line number="16" lnumber="10">ਨਾਨਕ ਹੁਕਮੈ ਜੇ ਬੁਝੈ ਤ ਹਉਮੈ ਕਹੈ ਨ ਕੋਇ ॥੨॥</line>
+            </hymn>
+            <hymn number="3" author="1" melody="1">
+                <line number="17" lnumber="10">ਗਾਵੈ ਕੋ ਤਾਣੁ ਹੋਵੈ ਕਿਸੈ ਤਾਣੁ ॥</line>
+                <line number="18" lnumber="11">ਗਾਵੈ ਕੋ ਦਾਤਿ ਜਾਣੈ ਨੀਸਾਣੁ ॥</line>
+                <line number="19" lnumber="11">ਗਾਵੈ ਕੋ ਗੁਣ ਵਡਿਆਈਆ ਚਾਰ ॥</line>
+                <line number="20" lnumber="11">ਗਾਵੈ ਕੋ ਵਿਦਿਆ ਵਿਖਮੁ ਵੀਚਾਰੁ ॥</line>
+                <line number="21" lnumber="12">ਗਾਵੈ ਕੋ ਸਾਜਿ ਕਰੇ ਤਨੁ ਖੇਹ ॥</line>
+                <line number="22" lnumber="12">ਗਾਵੈ ਕੋ ਜੀਅ ਲੈ ਫਿਰਿ ਦੇਹ ॥</line>
+                <line number="23" lnumber="12">ਗਾਵੈ ਕੋ ਜਾਪੈ ਦਿਸੈ ਦੂਰਿ ॥</line>
+            </hymn>
+        </page>
+        <page number="2">
+            <hymn number="4" author="1" melody="1">
+                <line number="1" lnumber="1">ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ ਨਿਰਭਉ ਨਿਰਵੈਰੁ ਅਕਾਲ ਮੂਰਤਿ ਅਜੂਨੀ ਸੈਭੰ ਗੁਰ ਪ੍ਰਸਾਦਿ ॥</line>
+                <line number="2" lnumber="3">॥ ਜਪੁ ॥</line>
+                <line number="3" lnumber="4">ਆਦਿ ਸਚੁ ਜੁਗਾਦਿ ਸਚੁ ॥</line>
+                <line number="4" lnumber="4">ਹੈ ਭੀ ਸਚੁ ਨਾਨਕ ਹੋਸੀ ਭੀ ਸਚੁ ॥੧॥</line>
+                <line number="5" lnumber="5">ਸੋਚੈ ਸੋਚਿ ਨ ਹੋਵਈ ਜੇ ਸੋਚੀ ਲਖ ਵਾਰ ॥</line>
+                <line number="6" lnumber="5">ਚੁਪੈ ਚੁਪ ਨ ਹੋਵਈ ਜੇ ਲਾਇ ਰਹਾ ਲਿਵ ਤਾਰ ॥</line>
+                <line number="7" lnumber="5">ਭੁਖਿਆ ਭੁਖ ਨ ਉਤਰੀ ਜੇ ਬੰਨਾ ਪੁਰੀਆ ਭਾਰ ॥</line>
+                <line number="8" lnumber="6">ਸਹਸ ਸਿਆਣਪਾ ਲਖ ਹੋਹਿ ਤ ਇਕ ਨ ਚਲੈ ਨਾਲਿ ॥</line>
+                <line number="9" lnumber="6">ਕਿਵ ਸਚਿਆਰਾ ਹੋਈਐ ਕਿਵ ਕੂੜੈ ਤੁਟੈ ਪਾਲਿ ॥</line>
+                <line number="10" lnumber="7">ਹੁਕਮਿ ਰਜਾਈ ਚਲਣਾ ਨਾਨਕ ਲਿਖਿਆ ਨਾਲਿ ॥੧॥</line>
+            </hymn>
+            <hymn number="5" author="1" melody="1">
+                <line number="11" lnumber="7">ਹੁਕਮੀ ਹੋਵਨਿ ਆਕਾਰ ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ ॥</line>
+                <line number="12" lnumber="8">ਹੁਕਮੀ ਹੋਵਨਿ ਜੀਅ ਹੁਕਮਿ ਮਿਲੈ ਵਡਿਆਈ ॥</line>
+                <line number="13" lnumber="8">ਹੁਕਮੀ ਉਤਮੁ ਨੀਚੁ ਹੁਕਮਿ ਲਿਖਿ ਦੁਖ ਸੁਖ ਪਾਈਅਹਿ ॥</line>
+                <line number="14" lnumber="9">ਇਕਨਾ ਹੁਕਮੀ ਬਖਸੀਸ ਇਕਿ ਹੁਕਮੀ ਸਦਾ ਭਵਾਈਅਹਿ ॥</line>
+                <line number="15" lnumber="9">ਹੁਕਮੈ ਅੰਦਰਿ ਸਭੁ ਕੋ ਬਾਹਰਿ ਹੁਕਮ ਨ ਕੋਇ ॥</line>
+                <line number="16" lnumber="10">ਨਾਨਕ ਹੁਕਮੈ ਜੇ ਬੁਝੈ ਤ ਹਉਮੈ ਕਹੈ ਨ ਕੋਇ ॥੨॥</line>
+            </hymn>
+            <hymn number="6" author="1" melody="1">
+                <line number="17" lnumber="10">ਗਾਵੈ ਕੋ ਤਾਣੁ ਹੋਵੈ ਕਿਸੈ ਤਾਣੁ ॥</line>
+                <line number="18" lnumber="11">ਗਾਵੈ ਕੋ ਦਾਤਿ ਜਾਣੈ ਨੀਸਾਣੁ ॥</line>
+                <line number="19" lnumber="11">ਗਾਵੈ ਕੋ ਗੁਣ ਵਡਿਆਈਆ ਚਾਰ ॥</line>
+                <line number="20" lnumber="11">ਗਾਵੈ ਕੋ ਵਿਦਿਆ ਵਿਖਮੁ ਵੀਚਾਰੁ ॥</line>
+                <line number="21" lnumber="12">ਗਾਵੈ ਕੋ ਸਾਜਿ ਕਰੇ ਤਨੁ ਖੇਹ ॥</line>
+                <line number="22" lnumber="12">ਗਾਵੈ ਕੋ ਜੀਅ ਲੈ ਫਿਰਿ ਦੇਹ ॥</line>
+                <line number="23" lnumber="12">ਗਾਵੈ ਕੋ ਜਾਪੈ ਦਿਸੈ ਦੂਰਿ ॥</line>
+            </hymn>
+        </page>
+    </book>
+</xmlGurbani>

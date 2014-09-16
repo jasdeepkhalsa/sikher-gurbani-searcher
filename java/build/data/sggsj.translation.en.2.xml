@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="xmlgurbani.css" type="text/css"?>
+<xmlGurbani xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="bani.xsd"
+	book="sggsj" language="en-US" version="3.0" status="incomplete" type="translation">
+    <information>
+        <author>Sant Singh Khalsa</author>
+        <date>2005-08-16</date>
+        <description>This is the latest and most complete and accurate translation of Guru Granth Sahib.</description>
+        <language>English: United States</language>
+        <type>Translation</type>
+    </information>
+    <book number="1">
+        <page number="1">
+            <hymn number="1" author="1" melody="1">
+                <line number="1" lnumber="1">One Universal Creator God. The Name Is Truth. Creative Being Personified. No Fear. No Hatred. Image Of The Undying, Beyond Birth, Self-Existent. By Guru's Grace ~</line>
+                <line number="2" lnumber="3">Chant And Meditate:</line>
+                <line number="3" lnumber="4">True In The Primal Beginning. True Throughout The Ages.</line>
+                <line number="4" lnumber="4">True Here And Now. O Nanak, Forever And Ever True. ||1||</line>
+                <line number="5" lnumber="5">By thinking, He cannot be reduced to thought, even by thinking hundreds of thousands of times.</line>
+                <line number="6" lnumber="5">By remaining silent, inner silence is not obtained, even by remaining lovingly absorbed deep within.</line>
+                <line number="7" lnumber="5">The hunger of the hungry is not appeased, even by piling up loads of worldly goods.</line>
+                <line number="8" lnumber="6">Hundreds of thousands of clever tricks, but not even one of them will go along with you in the end.</line>
+                <line number="9" lnumber="6">So how can you become truthful? And how can the veil of illusion be torn away?</line>
+                <line number="10" lnumber="7">O Nanak, it is written that you shall obey the Hukam of His Command, and walk in the Way of His Will. ||1||</line>
+            </hymn>
+            <hymn number="2" author="1" melody="1">
+                <line number="11" lnumber="7">By His Command, bodies are created; His Command cannot be described.</line>
+                <line number="12" lnumber="8">By His Command, souls come into being; by His Command, glory and greatness are obtained.</line>
+                <line number="13" lnumber="8">By His Command, some are high and some are low; by His Written Command, pain and pleasure are obtained.</line>
+                <line number="14" lnumber="9">Some, by His Command, are blessed and forgiven; others, by His Command, wander aimlessly forever.</line>
+                <line number="15" lnumber="9">Everyone is subject to His Command; no one is beyond His Command.</line>
+                <line number="16" lnumber="10">O Nanak, one who understands His Command, does not speak in ego.  ||2||</line>
+            </hymn>
+            <hymn number="3" author="1" melody="1">
+                <line number="17" lnumber="10">Some sing of His Power-who has that Power?</line>
+                <line number="18" lnumber="11">Some sing of His Gifts, and know His Sign and Insignia.</line>
+                <line number="19" lnumber="11">Some sing of His Glorious Virtues, Greatness and Beauty.</line>
+                <line number="20" lnumber="11">Some sing of knowledge obtained of Him, through difficult philosophical studies.</line>
+                <line number="21" lnumber="12">Some sing that He fashions the body, and then again reduces it to dust.</line>
+                <line number="22" lnumber="12">Some sing that He takes life away, and then again restores it.</line>
+                <line number="23" lnumber="12">Some sing that He seems so very far away.</line>
+            </hymn>
+        </page>
+        <page number="2">
+            <hymn number="4" author="1" melody="1">
+                <line number="1" lnumber="1">One Universal Creator God. The Name Is Truth. Creative Being Personified. No Fear. No Hatred. Image Of The Undying, Beyond Birth, Self-Existent. By Guru's Grace ~</line>
+                <line number="2" lnumber="3">Chant And Meditate:</line>
+                <line number="3" lnumber="4">True In The Primal Beginning. True Throughout The Ages.</line>
+                <line number="4" lnumber="4">True Here And Now. O Nanak, Forever And Ever True. ||1||</line>
+                <line number="5" lnumber="5">By thinking, He cannot be reduced to thought, even by thinking hundreds of thousands of times.</line>
+                <line number="6" lnumber="5">By remaining silent, inner silence is not obtained, even by remaining lovingly absorbed deep within.</line>
+                <line number="7" lnumber="5">The hunger of the hungry is not appeased, even by piling up loads of worldly goods.</line>
+                <line number="8" lnumber="6">Hundreds of thousands of clever tricks, but not even one of them will go along with you in the end.</line>
+                <line number="9" lnumber="6">So how can you become truthful? And how can the veil of illusion be torn away?</line>
+                <line number="10" lnumber="7">O Nanak, it is written that you shall obey the Hukam of His Command, and walk in the Way of His Will. ||1||</line>
+            </hymn>
+            <hymn number="5" author="1" melody="1">
+                <line number="11" lnumber="7">By His Command, bodies are created; His Command cannot be described.</line>
+                <line number="12" lnumber="8">By His Command, souls come into being; by His Command, glory and greatness are obtained.</line>
+                <line number="13" lnumber="8">By His Command, some are high and some are low; by His Written Command, pain and pleasure are obtained.</line>
+                <line number="14" lnumber="9">Some, by His Command, are blessed and forgiven; others, by His Command, wander aimlessly forever.</line>
+                <line number="15" lnumber="9">Everyone is subject to His Command; no one is beyond His Command.</line>
+                <line number="16" lnumber="10">O Nanak, one who understands His Command, does not speak in ego.  ||2||</line>
+            </hymn>
+            <hymn number="6" author="1" melody="1">
+                <line number="17" lnumber="10">Some sing of His Power-who has that Power?</line>
+                <line number="18" lnumber="11">Some sing of His Gifts, and know His Sign and Insignia.</line>
+                <line number="19" lnumber="11">Some sing of His Glorious Virtues, Greatness and Beauty.</line>
+                <line number="20" lnumber="11">Some sing of knowledge obtained of Him, through difficult philosophical studies.</line>
+                <line number="21" lnumber="12">Some sing that He fashions the body, and then again reduces it to dust.</line>
+                <line number="22" lnumber="12">Some sing that He takes life away, and then again restores it.</line>
+                <line number="23" lnumber="12">Some sing that He seems so very far away.</line>
+            </hymn>
+        </page>
+
+    </book>
+</xmlGurbani>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="XMLGURBANI">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded" minOccurs="0">
+				<xsd:element ref="INFORMATION"/>
+				<xsd:element ref="BOOK"/>
+			</xsd:choice>
+			<xsd:attribute name="xsi:noNamespaceSchemaLocation" type="xsd:anyURI" use="required"/>
+			<xsd:attribute name="version" type="xsd:decimal" use="required"/>
+			<xsd:attribute name="revision" type="xsd:decimal" use="required"/>
+			<xsd:attribute name="status" type="xsd:boolean" use="required"/>
+			<xsd:attribute name="book" type="xsd:ID" use="required"/>
+			<xsd:attribute name="type" type="xsd:ID" use="required"/>
+			<xsd:attribute name="language" type="xsd:ID" use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="INFORMATION">
+		<xsd:complexType mixed="true">
+			<xsd:choice maxOccurs="unbounded" minOccurs="0">
+				<xsd:element ref="author"/>
+				<xsd:element ref="date"/>
+				<xsd:element ref="description"/>
+				<xsd:element ref="language"/>
+				<xsd:element ref="type"/>
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="author" type="xsd:string"/>
+	<xsd:element name="date" type="xsd:string"/>
+	<xsd:element name="description" type="xsd:string"/>
+	<xsd:element name="language" type="xsd:string"/>
+	<xsd:element name="type" type="xsd:string"/>
+	<xsd:element name="BOOK">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded" minOccurs="0">
+				<xsd:element ref="PAGE"/>
+			</xsd:choice>
+			<xsd:attribute name="bnumber" type="xsd:string" use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="PAGE">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded" minOccurs="0">
+				<xsd:element ref="HYMN"/>
+			</xsd:choice>
+			<xsd:attribute name="pnumber" type="xsd:string" use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="HYMN">
+		<xsd:complexType mixed="true">
+			<xsd:choice maxOccurs="unbounded" minOccurs="0">
+				<xsd:element ref="LINE"/>
+			</xsd:choice>
+			<xsd:attribute name="hnumber" type="xsd:string" use="required"/>
+			<xsd:attribute name="author" type="xsd:string" use="required"/>
+			<xsd:attribute name="melody" type="xsd:string" use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="LINE">
+		<xsd:complexType>
+			<xsd:simpleContent>
+				<xsd:extension base="xsd:string">
+					<xsd:attribute name="lnumber" type="xsd:string" use="required"/>
+				</xsd:extension>
+			</xsd:simpleContent>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

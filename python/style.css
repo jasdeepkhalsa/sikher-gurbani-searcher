@@ -1,0 +1,23 @@
+/* ~ START OF TEMPLATE ~ */
+
+/* **********************General***************************** */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* **********************Formatting***************************** */
+p {color: #333333; margin-bottom: 16px; margin-top: 0; font-style:normal; font-variant:normal; font-weight:normal; line-height:150%; font-size:11pt; font-family:georgia, tahoma, verdana, arial, helvetica, sans-serif}
+
+h1,h2,h3,h4,h5,h6 { font-style:normal; font-variant:normal; font-weight:normal; font-size:100%; font-family:georgia, tahoma, verdana, arial, helvetica, sans-serif }
+
+h2 {
+font-size: 18pt; color: #0000FF}
+
+h3 {
+font-family: Tahoma; font-size: 12pt; color: #FF0000}
+
+h4 {
+font-family: Tahoma; font-size: 12pt; color: #666666}
+
+/* ~ END OF TEMPLATE ~ */

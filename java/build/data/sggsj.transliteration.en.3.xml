@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="xmlgurbani.css" type="text/css"?>
+<xmlGurbani xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="bani.xsd"
+	book="sggsj" language="en" version="1.0" status="incomplete" type="transliteration">
+    <information>
+        <author>Sukhjinder Sidhu</author>
+        <date>2005-12-22</date>
+        <description>This is a perfect phonetic transliteration created using Unicode mappings.</description>
+        <language>English</language>
+        <type>Transliteration</type>
+    </information>
+    <book number="1">
+        <page number="1">
+            <hymn number="1" author="1" melody="1">
+                <line number="1" lnumber="1">ik ōuṅkāṛ sat nām karatā purakh nirabhau niravair akāl mūrat ajūnī saibhaṅ gur prasād ॥</line>
+                <line number="2" lnumber="3">॥ jap ॥</line>
+                <line number="3" lnumber="4">ād sach jugād sach ॥</line>
+                <line number="4" lnumber="4">hai bhī sach nānak hōsī bhī sach ॥1॥</line>
+                <line number="5" lnumber="5">sōchai sōch na hōvaī jē sōchī lakh vār ॥</line>
+                <line number="6" lnumber="5">chupai chup na hōvaī jē lāi rahā liv tār ॥</line>
+                <line number="7" lnumber="5">bhukhiā bhukh na utarī jē baṅnā purīā bhār ॥</line>
+                <line number="8" lnumber="6">sahas siāṇapā lakh hōh ta ik na chalai nāl ॥</line>
+                <line number="9" lnumber="6">kiv sachiārā hōīai kiv kūṛai tuṭai pāl ॥</line>
+                <line number="10" lnumber="7">hukam rajāī chalaṇā nānak likhiā nāl ॥1॥</line>
+            </hymn>
+            <hymn number="2" author="1" melody="1">
+                <line number="11" lnumber="7">hukamī hōvan ākār hukam na kahiā jāī ॥</line>
+                <line number="12" lnumber="8">hukamī hōvan jī hukam milai vaḍiāī ॥</line>
+                <line number="13" lnumber="8">hukamī utam nīch hukam likh dukh sukh pāīah ॥</line>
+                <line number="14" lnumber="9">ikanā hukamī bakhasīs ik hukamī sadā bhavāīah ॥</line>
+                <line number="15" lnumber="9">hukamai aṅdar sabh kō bāhar hukam na kōi ॥</line>
+                <line number="16" lnumber="10">nānak hukamai jē bujhai ta haumai kahai na kōi ॥2॥</line>
+            </hymn>
+            <hymn number="3" author="1" melody="1">
+                <line number="17" lnumber="10">gāvai kō tāṇ hōvai kisai tāṇ ॥</line>
+                <line number="18" lnumber="11">gāvai kō dāt jāṇai nīsāṇ ॥</line>
+                <line number="19" lnumber="11">gāvai kō guṇ vaḍiāīā chār ॥</line>
+                <line number="20" lnumber="11">gāvai kō vidiā vikham vīchār ॥</line>
+                <line number="21" lnumber="12">gāvai kō sāj karē tan khēh ॥</line>
+                <line number="22" lnumber="12">gāvai kō jī lai phir dēh ॥</line>
+                <line number="23" lnumber="12">gāvai kō jāpai disai dūr ॥</line>
+            </hymn>
+        </page>
+        <page number="2">
+            <hymn number="4" author="1" melody="1">
+                <line number="1" lnumber="1">ik ōuṅkāṛ sat nām karatā purakh nirabhau niravair akāl mūrat ajūnī saibhaṅ gur prasād ॥</line>
+                <line number="2" lnumber="3">॥ jap ॥</line>
+                <line number="3" lnumber="4">ād sach jugād sach ॥</line>
+                <line number="4" lnumber="4">hai bhī sach nānak hōsī bhī sach ॥1॥</line>
+                <line number="5" lnumber="5">sōchai sōch na hōvaī jē sōchī lakh vār ॥</line>
+                <line number="6" lnumber="5">chupai chup na hōvaī jē lāi rahā liv tār ॥</line>
+                <line number="7" lnumber="5">bhukhiā bhukh na utarī jē baṅnā purīā bhār ॥</line>
+                <line number="8" lnumber="6">sahas siāṇapā lakh hōh ta ik na chalai nāl ॥</line>
+                <line number="9" lnumber="6">kiv sachiārā hōīai kiv kūṛai tuṭai pāl ॥</line>
+                <line number="10" lnumber="7">hukam rajāī chalaṇā nānak likhiā nāl ॥1॥</line>
+            </hymn>
+            <hymn number="5" author="1" melody="1">
+                <line number="11" lnumber="7">hukamī hōvan ākār hukam na kahiā jāī ॥</line>
+                <line number="12" lnumber="8">hukamī hōvan jī hukam milai vaḍiāī ॥</line>
+                <line number="13" lnumber="8">hukamī utam nīch hukam likh dukh sukh pāīah ॥</line>
+                <line number="14" lnumber="9">ikanā hukamī bakhasīs ik hukamī sadā bhavāīah ॥</line>
+                <line number="15" lnumber="9">hukamai aṅdar sabh kō bāhar hukam na kōi ॥</line>
+                <line number="16" lnumber="10">nānak hukamai jē bujhai ta haumai kahai na kōi ॥2॥</line>
+            </hymn>
+            <hymn number="6" author="1" melody="1">
+                <line number="17" lnumber="10">gāvai kō tāṇ hōvai kisai tāṇ ॥</line>
+                <line number="18" lnumber="11">gāvai kō dāt jāṇai nīsāṇ ॥</line>
+                <line number="19" lnumber="11">gāvai kō guṇ vaḍiāīā chār ॥</line>
+                <line number="20" lnumber="11">gāvai kō vidiā vikham vīchār ॥</line>
+                <line number="21" lnumber="12">gāvai kō sāj karē tan khēh ॥</line>
+                <line number="22" lnumber="12">gāvai kō jī lai phir dēh ॥</line>
+                <line number="23" lnumber="12">gāvai kō jāpai disai dūr ॥</line>
+            </hymn>
+        </page>
+
+    </book>
+</xmlGurbani>
